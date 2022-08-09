@@ -4,9 +4,11 @@
     <head>
       <style>
             body {
-                  background-color: black !important;
+                  background-image: url('/images/background.jpg');
                   background-size: cover;
                 }
+                
+
       </style>
         <meta charset="UTF-8">    
             <meta http-equiv="X-UA-Compatible" content="IE=edge">    
@@ -15,7 +17,7 @@
             <title>Astro API</title>
     </head>
     <body class="text-center p-4">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-fill w-100">
           <div class="px-3"></div> 
 
           <h1 class="navbar-brand" href="#"></h1>
@@ -55,14 +57,20 @@
           </div>
         </nav>
     
-        <h1 style="color: white;"> AstroFinder</h1>    
-        <h3 style="color: white;">Explore the Universe!</h3>
-        <h5 style="color: white;">What do you want to find?</h5>
+        <h1 style="color: white; text-shadow: 3px 3px #524e4e;"> AstroFinder</h1>    
+        <h3 style="color: white; text-shadow: 3px 3px #524e4e;">Explore the Universe!</h3>
         <div>
-          <img src="images/galaxy-index-image.png" width = 400px/>
+          <img src="images/galaxy-index-image.png" width = 800px/>
         </div>
-        <button>Stars</button>
-        <button>Galaxies</button>
-        <button>Planets</button>
+        <h5 style="color: white; text-shadow: 3px 3px #524e4e;">What do you want to find?</h5>
+        <button class="btn btn-dark">Stars
+          <img src = "button-images/star-button.png" width = 50px>
+        </button>
+        <button class="btn btn-dark">Galaxies
+          <img src = "button-images/galaxy-button.png" width = 55px>
+        </button>
+        <button class="btn btn-dark">Planets
+          <img src = "button-images/saturn-button.png" width = 75px>
+        </button>
     </body>
 </html>
