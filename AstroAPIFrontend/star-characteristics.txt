@@ -1,6 +1,43 @@
 ## Stars
 
-# O Stars Characteristics
-- Blue Stars
-- Temperature of 30,000K - 50,000K
+#O Stars
+1. 9 Sagittarii https://en.wikipedia.org/wiki/9_Sagittarii
+2. BI 253 https://en.wikipedia.org/wiki/BI_253
+3. Meissa https://en.wikipedia.org/wiki/Meissa
+4. Tau Canis Majoris https://en.wikipedia.org/wiki/Tau_Canis_Majoris
+5. Alnitak https://en.wikipedia.org/wiki/Alnitak
 
+#B Stars
+1. Eta Canis Majoris https://en.wikipedia.org/wiki/Eta_Canis_Majoris
+2. Upsilon Orionis https://en.wikipedia.org/wiki/Upsilon_Orionis
+3. 9 Cephei https://en.wikipedia.org/wiki/9_Cephei
+4. Rigel https://en.wikipedia.org/wiki/Rigel
+5. Eta Aurigae https://en.wikipedia.org/wiki/Eta_Aurigae
+
+#A Stars
+1. Sirius https://en.wikipedia.org/wiki/Sirius
+2. Altair https://en.wikipedia.org/wiki/Altair
+3. Fomalhaut https://en.wikipedia.org/wiki/Fomalhaut
+4. Denebola https://en.wikipedia.org/wiki/Denebola
+5. Delta Capricorni https://en.wikipedia.org/wiki/Delta_Capricorni
+
+#F Stars
+1. Upsilon Andromedae https://en.wikipedia.org/wiki/Upsilon_Andromedae
+2. Tau Boötis https://en.wikipedia.org/wiki/Tau_Bo%C3%B6tis
+3. HD 10647 https://en.wikipedia.org/wiki/HD_10647
+4. HD 33564 https://en.wikipedia.org/wiki/HD_33564
+5. HD 60532 https://en.wikipedia.org/wiki/HD_60532
+
+#G Stars
+1. 
+2. 
+3. 
+4. 
+5. 
+
+#K Stars
+1. 
+2. 
+3. 
+4. 
+5. 
