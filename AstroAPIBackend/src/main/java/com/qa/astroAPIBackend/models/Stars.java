@@ -116,6 +116,7 @@ public class Stars {
 	@Override
 	public String toString() {
 		return "Star ID = " + id + "\n"
+				+ "Star Classification = " + starClass + "\n"
 				+ "Name of the Star = " + starName + "\n" 
 				+ "Mass of the Star = " + starMass + "\n" 
 				+ "Star Radius = " + starRadius + "\n" 

@@ -20,11 +20,6 @@ public class AstroController {
 	@Autowired
 	private AstroRepo astroRepo;
 	
-	@GetMapping(value = "/")
-	public String getPage() {
-		return "Welcome";
-	}
-	
 	@GetMapping(value = "/stars")
 	public List<Stars> getStars() {
 		return astroRepo.findAll();
@@ -42,6 +37,7 @@ public class AstroController {
 	public String updateStars(@PathVariable Long id, @RequestBody Stars stars) {
 		Stars updatedStars = astroRepo.findById(id).get();
 		
+		updatedStars.setStarClass(stars.getStarClass());
 		updatedStars.setStarName(stars.getStarName());
 		updatedStars.setStarMass(stars.getStarMass());
 		updatedStars.setStarRadius(stars.getStarRadius());
