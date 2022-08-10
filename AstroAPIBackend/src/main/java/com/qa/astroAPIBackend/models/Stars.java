@@ -18,6 +18,9 @@ public class Stars {
 	private Long id;
 	
 	@Column
+	private String starClass;
+	
+	@Column
 	private String starName;
 	
 	@Column
@@ -46,48 +49,70 @@ public class Stars {
 	public void setId(Long id) {
 		this.id = id;
 	}
+	
+	public String getStarClass() {
+		return starClass;
+	}
+	public void setStarClass(String starClass) {
+		this.starClass = starClass;
+	}
+	
 	public String getStarName() {
 		return starName;
 	}
+	
 	public void setStarName(String starName) {
 		this.starName = starName;
 	}
+	
 	public Long getStarMass() {
 		return starMass;
 	}
+	
 	public void setStarMass(Long starMass) {
 		this.starMass = starMass;
 	}
+	
 	public Long getStarRadius() {
 		return starRadius;
 	}
+	
 	public void setStarRadius(Long starRadius) {
 		this.starRadius = starRadius;
 	}
+	
 	public String getStarColour() {
 		return starColour;
 	}
+	
 	public void setStarColour(String starColour) {
 		this.starColour = starColour;
 	}
+	
 	public Long getStarTemp() {
 		return starTemp;
 	}
+	
 	public void setStarTemp(Long starTemp) {
 		this.starTemp = starTemp;
 	}
+	
 	public Long getStarDistFromEarth() {
 		return starDistFromEarth;
 	}
+	
 	public void setStarDistFromEarth(Long starDistFromEarth) {
 		this.starDistFromEarth = starDistFromEarth;
 	}
+	
 	public Long getStarBrightness() {
 		return starBrightness;
 	}
+	
 	public void setStarBrightness(Long starBrightness) {
 		this.starBrightness = starBrightness;
 	}
+	
 	@Override
 	public String toString() {
 		return "Star ID = " + id + "\n"
@@ -101,8 +126,8 @@ public class Stars {
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(id, starBrightness, starColour, starDistFromEarth, starMass, starName, starRadius,
-				starTemp);
+		return Objects.hash(id, starBrightness, starClass, starColour, starDistFromEarth, starMass, starName,
+				starRadius, starTemp);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -114,7 +139,7 @@ public class Stars {
 			return false;
 		Stars other = (Stars) obj;
 		return Objects.equals(id, other.id) && Objects.equals(starBrightness, other.starBrightness)
-				&& Objects.equals(starColour, other.starColour)
+				&& Objects.equals(starClass, other.starClass) && Objects.equals(starColour, other.starColour)
 				&& Objects.equals(starDistFromEarth, other.starDistFromEarth)
 				&& Objects.equals(starMass, other.starMass) && Objects.equals(starName, other.starName)
 				&& Objects.equals(starRadius, other.starRadius) && Objects.equals(starTemp, other.starTemp);
