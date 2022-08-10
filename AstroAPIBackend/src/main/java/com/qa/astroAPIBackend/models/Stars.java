@@ -118,12 +118,12 @@ public class Stars {
 		return "Star ID = " + id + "\n"
 				+ "Star Classification = " + starClass + "\n"
 				+ "Name of the Star = " + starName + "\n" 
-				+ "Mass of the Star = " + starMass + "\n" 
-				+ "Star Radius = " + starRadius + "\n" 
+				+ "Mass of the Star = " + starMass + "kg" + "\n" 
+				+ "Star Radius = " + starRadius + "km" + "\n" 
 				+ "Star Colour = " + starColour + "\n" 
-				+ "Temperature of the Star (K) " + starTemp + "\n" 
-				+ "Distance From Earth = " + starDistFromEarth + "\n" 
-				+ "Brightness of the Star = " + starBrightness;
+				+ "Temperature of the Star " + starTemp + "K" + "\n" 
+				+ "Distance From Earth = " + starDistFromEarth + " Light Years" + "\n" 
+				+ "Brightness of the Star (Apparent Magnitude) = " + starBrightness;
 	}
 	@Override
 	public int hashCode() {

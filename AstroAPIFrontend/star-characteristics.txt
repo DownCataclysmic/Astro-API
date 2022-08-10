@@ -29,15 +29,15 @@
 5. HD 60532 https://en.wikipedia.org/wiki/HD_60532
 
 #G Stars
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Sun https://en.wikipedia.org/wiki/Sun
+2. Alpha Centauri https://en.wikipedia.org/wiki/Alpha_Centauri
+3. 51 Pegasi https://en.wikipedia.org/wiki/51_Pegasi
+4. Capella https://en.wikipedia.org/wiki/Capella
+5. 47 Ursae Majoris https://en.wikipedia.org/wiki/47_Ursae_Majoris
 
 #K Stars
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Alpha Centauri B https://en.wikipedia.org/wiki/Alpha_Centauri#Alpha_Centauri_B
+2. Epsilon Indi https://en.wikipedia.org/wiki/Epsilon_Indi
+3. Epsilon Eridani https://en.wikipedia.org/wiki/Epsilon_Eridani
+4. HD 192310 https://en.wikipedia.org/wiki/HD_192310
+5. Gliese 86 https://en.wikipedia.org/wiki/Gliese_86

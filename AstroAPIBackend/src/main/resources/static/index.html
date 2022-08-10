@@ -50,7 +50,21 @@
               <input class="form-control" type="text" placeholder="Search" aria-label="Search">
             </div>
         </nav>
-    
+        <script>
+          //Fetch Star Data
+        const star_url = 'http://localhost:8080/stars'
+
+        async function getStarData() {
+          const response = await fetch(star_url);
+          const data = await response.json();
+          console.log(data[0].starClass)
+          console.log(data[0].starName)
+          console.log(data[0].starColour)
+          console.log(data[0].starMass)
+          console.log(data[0].starDistFromEarth)
+        }
+        getStarData();
+        </script>
         <h1 style="color: white; text-shadow: 3px 3px #524e4e;"> AstroFinder</h1>    
         <h3 style="color: white; text-shadow: 3px 3px #524e4e;">Explore the Universe!</h3>
         <div>
@@ -68,7 +82,7 @@
         </button>
         <div>
           <h5 class = "p-4" id='star' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What classification of star?</p>
-          <button class="btn btn-dark" href="#">O</button>
+          <button class="btn btn-dark" id='star-button'>O</button>
           <button class="btn btn-dark" href="#">B</button>
           <button class="btn btn-dark" href="#">A</button>
           <button class="btn btn-dark" href="#">F</button>
