@@ -42,8 +42,6 @@ let generatedRandNumber = [];
 
 // The following functions fetch the star data from my API and produces HTML
 async function getStarDataO() {
-  let starNewFormat = [];
-
   const response = await fetch(star_url);
   const data = await response.json();
   const rand_star = data[getRandomInt(1,5)]
@@ -54,11 +52,11 @@ async function getStarDataO() {
   jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
   jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
   jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass (M☉)\":");
-  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius (R☉)\":");
   jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
-  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
-  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
-  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature (K)\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
 
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
@@ -77,13 +75,13 @@ async function getStarDataB() {
   jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
   jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
   jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
-  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
-  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass (M)\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius (R☉)\":");
   jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
-  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
-  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
-  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
-
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature (K)\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
+  
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
@@ -102,19 +100,18 @@ async function getStarDataA() {
   jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
   jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
   jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
-  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
-  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass (M☉)\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius (R☉)\":");
   jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
-  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
-  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
-  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature (K)\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
 
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
     <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
-
 
           document.getElementById('container-a').innerHTML = generatedHtml;
         }
@@ -127,12 +124,12 @@ async function getStarDataF() {
   jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
   jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
   jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
-  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
-  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass (M☉)\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius (R☉)\":");
   jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
-  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
-  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
-  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature (K)\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
 
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
@@ -151,12 +148,12 @@ async function getStarDataG() {
   jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
   jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
   jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
-  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
-  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass (M☉)\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius (R☉)\":");
   jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
-  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
-  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
-  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature (K)\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
 
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
@@ -175,12 +172,12 @@ async function getStarDataK() {
   jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
   jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
   jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
-  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
-  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass (M☉)\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius (R☉)\":");
   jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
-  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
-  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
-  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature (K)\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
 
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
