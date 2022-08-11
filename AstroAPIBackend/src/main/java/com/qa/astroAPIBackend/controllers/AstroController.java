@@ -45,6 +45,8 @@ public class AstroController {
 		updatedStars.setStarTemp(stars.getStarTemp());
 		updatedStars.setStarDistFromEarth(stars.getStarDistFromEarth());
 		updatedStars.setStarBrightness(stars.getStarBrightness());
+		updatedStars.setStarImgURL(stars.getStarImgURL());
+		updatedStars.setStarDescr(stars.getStarDescr());
 		
 		astroRepo.save(updatedStars);
 		return "We have noted your changes...human...";
