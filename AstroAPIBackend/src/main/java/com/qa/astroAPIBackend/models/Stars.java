@@ -24,105 +24,88 @@ public class Stars {
 	private String starName;
 	
 	@Column
-	private Long starMass;
+	private String starMass;
 	
 	@Column
-	private Long starRadius;
+	private String starRadius;
 	
 	@Column
 	private String starColour;
 	
 	@Column
-	@Min(0)
-	private Long starTemp;
+	private String starTemp;
 	
 	@Column
-	private Long starDistFromEarth;
+	private String starDistFromEarth;
 	
 	@Column
-	private Long starBrightness;
+	private String starBrightness;
 	
-
+	
 	public Long getId() {
 		return id;
 	}
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
 	public String getStarClass() {
 		return starClass;
 	}
 	public void setStarClass(String starClass) {
 		this.starClass = starClass;
 	}
-	
 	public String getStarName() {
 		return starName;
 	}
-	
 	public void setStarName(String starName) {
 		this.starName = starName;
 	}
-	
-	public Long getStarMass() {
+	public String getStarMass() {
 		return starMass;
 	}
-	
-	public void setStarMass(Long starMass) {
+	public void setStarMass(String starMass) {
 		this.starMass = starMass;
 	}
-	
-	public Long getStarRadius() {
+	public String getStarRadius() {
 		return starRadius;
 	}
-	
-	public void setStarRadius(Long starRadius) {
+	public void setStarRadius(String starRadius) {
 		this.starRadius = starRadius;
 	}
-	
 	public String getStarColour() {
 		return starColour;
 	}
-	
 	public void setStarColour(String starColour) {
 		this.starColour = starColour;
 	}
-	
-	public Long getStarTemp() {
+	public String getStarTemp() {
 		return starTemp;
 	}
-	
-	public void setStarTemp(Long starTemp) {
+	public void setStarTemp(String starTemp) {
 		this.starTemp = starTemp;
 	}
-	
-	public Long getStarDistFromEarth() {
+	public String getStarDistFromEarth() {
 		return starDistFromEarth;
 	}
-	
-	public void setStarDistFromEarth(Long starDistFromEarth) {
+	public void setStarDistFromEarth(String starDistFromEarth) {
 		this.starDistFromEarth = starDistFromEarth;
 	}
-	
-	public Long getStarBrightness() {
+	public String getStarBrightness() {
 		return starBrightness;
 	}
-	
-	public void setStarBrightness(Long starBrightness) {
+	public void setStarBrightness(String starBrightness) {
 		this.starBrightness = starBrightness;
 	}
-	
 	@Override
 	public String toString() {
 		return "Star ID = " + id + "\n"
 				+ "Star Classification = " + starClass + "\n"
 				+ "Name of the Star = " + starName + "\n" 
-				+ "Mass of the Star = " + starMass + "kg" + "\n" 
-				+ "Star Radius = " + starRadius + "km" + "\n" 
+				+ "Mass of the Star = " + starMass + "Solar Masses" + "\n" 
+				+ "Star Radius = " + starRadius + "Solar Radii" + "\n" 
 				+ "Star Colour = " + starColour + "\n" 
 				+ "Temperature of the Star " + starTemp + "K" + "\n" 
-				+ "Distance From Earth = " + starDistFromEarth + " Light Years" + "\n" 
+				+ "Distance From Earth = " + starDistFromEarth + " Parsecs" + "\n" 
 				+ "Brightness of the Star (Apparent Magnitude) = " + starBrightness;
 	}
 	@Override

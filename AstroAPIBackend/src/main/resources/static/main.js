@@ -40,10 +40,13 @@ function getRandomInt(min, max) {
   generated from being used in the next button click */
 let generatedRandNumber = [];
 
+// The following functions fetch the star data from my API and produces HTML
 async function getStarDataO() {
   const response = await fetch(star_url);
   const data = await response.json();
+  
   const rand_star = data[getRandomInt(1,5)]
+
   const generatedHtml = Object.keys(rand_star).reduce((accum, currKey) => accum +
   `<div class="p-2">
     <h3 class="o-stars">${currKey}: ${rand_star[currKey]}</h3>
