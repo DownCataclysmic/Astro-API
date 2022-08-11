@@ -42,14 +42,28 @@ let generatedRandNumber = [];
 
 // The following functions fetch the star data from my API and produces HTML
 async function getStarDataO() {
+  let starNewFormat = [];
+
   const response = await fetch(star_url);
   const data = await response.json();
-  
   const rand_star = data[getRandomInt(1,5)]
+  /*Now I know what you're thinking. What on earth is this mess below this comment.
+    How about we just be happy that it works :)*/
+  const myJSON = JSON.stringify(rand_star);
+  jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
+  jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
+  jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass (M☉)\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
 
-  const generatedHtml = Object.keys(rand_star).reduce((accum, currKey) => accum +
+  let rand_star_fixed = JSON.parse(jsonStarName);
+  const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="o-stars">${currKey}: ${rand_star[currKey]}</h3>
+    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-o').innerHTML = generatedHtml;
@@ -59,10 +73,23 @@ async function getStarDataB() {
   const response = await fetch(star_url);
   const data = await response.json();
   const rand_star = data[getRandomInt(5,10)]
-  const generatedHtml = Object.keys(rand_star).reduce((accum, currKey) => accum +
+  const myJSON = JSON.stringify(rand_star);
+  jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
+  jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
+  jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+
+  let rand_star_fixed = JSON.parse(jsonStarName);
+  const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="b-stars">${currKey}: ${rand_star[currKey]}</h3>
+    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
+
 
           document.getElementById('container-b').innerHTML = generatedHtml;
         }
@@ -71,10 +98,23 @@ async function getStarDataA() {
   const response = await fetch(star_url);
   const data = await response.json();
   const rand_star = data[getRandomInt(10,15)]
-  const generatedHtml = Object.keys(rand_star).reduce((accum, currKey) => accum +
+  const myJSON = JSON.stringify(rand_star);
+  jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
+  jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
+  jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+
+  let rand_star_fixed = JSON.parse(jsonStarName);
+  const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="a-stars">${currKey}: ${rand_star[currKey]}</h3>
+    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
+
 
           document.getElementById('container-a').innerHTML = generatedHtml;
         }
@@ -83,9 +123,21 @@ async function getStarDataF() {
   const response = await fetch(star_url);
   const data = await response.json();
   const rand_star = data[getRandomInt(15,20)]
-  const generatedHtml = Object.keys(rand_star).reduce((accum, currKey) => accum +
+  const myJSON = JSON.stringify(rand_star);
+  jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
+  jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
+  jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+
+  let rand_star_fixed = JSON.parse(jsonStarName);
+  const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="f-stars">${currKey}: ${rand_star[currKey]}</h3>
+    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-f').innerHTML = generatedHtml;
@@ -95,9 +147,21 @@ async function getStarDataG() {
   const response = await fetch(star_url);
   const data = await response.json();
   const rand_star = data[getRandomInt(20,25)]
-  const generatedHtml = Object.keys(rand_star).reduce((accum, currKey) => accum +
+  const myJSON = JSON.stringify(rand_star);
+  jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
+  jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
+  jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+
+  let rand_star_fixed = JSON.parse(jsonStarName);
+  const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="g-stars">${currKey}: ${rand_star[currKey]}</h3>
+    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-g').innerHTML = generatedHtml;
@@ -107,9 +171,21 @@ async function getStarDataK() {
   const response = await fetch(star_url);
   const data = await response.json();
   const rand_star = data[getRandomInt(25,30)]
-  const generatedHtml = Object.keys(rand_star).reduce((accum, currKey) => accum +
+  const myJSON = JSON.stringify(rand_star);
+  jsonStarName = myJSON.replace("\"starClass\":", "\"Star Classification\":");
+  jsonStarName = jsonStarName.replace("\"id\":", "\"Star ID\":");
+  jsonStarName = jsonStarName.replace("\"starName\":", "\"Star Name\":");
+  jsonStarName = jsonStarName.replace("\"starMass\":", "\"Star Mass\":");
+  jsonStarName = jsonStarName.replace("\"starRadius\":", "\"Star Radius\":");
+  jsonStarName = jsonStarName.replace("\"starColour\":", "\"Star Colour\":");
+  jsonStarName = jsonStarName.replace("\"starTemp\":", "\"Star Temperature\":");
+  jsonStarName = jsonStarName.replace("\"starDistFromEarth\":", "\"Star Distance From Earth\":");
+  jsonStarName = jsonStarName.replace("\"starBrightness\":", "\"Star Brightness\":");
+
+  let rand_star_fixed = JSON.parse(jsonStarName);
+  const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="k-stars">${currKey}: ${rand_star[currKey]}</h3>
+    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-k').innerHTML = generatedHtml;
