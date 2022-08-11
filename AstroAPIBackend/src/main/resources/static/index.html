@@ -69,7 +69,12 @@
         <div>
           <h5 class = "p-4" id='star' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What classification of star?</p>
           <button class="btn btn-dark" id='star-button-o' onclick="getStarDataO()">O</button>
-            <p style="text-align: left;" id = 'container-o'></p>
+            <div class="container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-oa' class="col"></div>
+                <div id = 'container-ob' class="col"></div>
+              </div>
+            </div>
           <button class="btn btn-dark" id='star-button-b' onclick="getStarDataB()">B</button>
             <p style="text-align: left;" id = 'container-b'></p>
           <button class="btn btn-dark" id='star-button-a' onclick="getStarDataA()">A</button>

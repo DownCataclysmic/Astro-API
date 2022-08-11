@@ -64,7 +64,8 @@ async function getStarDataO() {
     <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
-          document.getElementById('container-o').innerHTML = generatedHtml;
+          document.getElementById('container-oa').innerHTML = generatedHtml;
+          document.getElementById('container-ob').innerHTML = "This column is ready for the description and image";
         }
 
 async function getStarDataB() {
@@ -85,7 +86,7 @@ async function getStarDataB() {
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
+    <h3 class="b-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
 
@@ -110,7 +111,7 @@ async function getStarDataA() {
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
+    <h3 class="a-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-a').innerHTML = generatedHtml;
@@ -134,7 +135,7 @@ async function getStarDataF() {
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
+    <h3 class="f-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-f').innerHTML = generatedHtml;
@@ -158,7 +159,7 @@ async function getStarDataG() {
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
+    <h3 class="g-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-g').innerHTML = generatedHtml;
@@ -182,7 +183,7 @@ async function getStarDataK() {
   let rand_star_fixed = JSON.parse(jsonStarName);
   const generatedHtml = Object.keys(rand_star_fixed).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="o-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
+    <h3 class="k-stars">${currKey}: ${rand_star_fixed[currKey]}</h3>
     </div>`, '');
 
           document.getElementById('container-k').innerHTML = generatedHtml;
