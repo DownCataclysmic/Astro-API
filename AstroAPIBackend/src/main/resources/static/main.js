@@ -55,28 +55,33 @@ async function getStarDataO() {
   jsonStarNameCol1 = jsonStarNameCol1.replace("\"starTemp\":", "\"Star Temperature (K)\":");jsonStarNameCol1 = jsonStarNameCol1.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");  
   jsonStarNameCol1 = jsonStarNameCol1.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
   let rand_star_col1 = JSON.parse(jsonStarNameCol1);
-  
-  let myJSONcol2 = JSON.stringify(rand_star, ["starImgURL", "starDescr"]);      
-  jsonStarNameCol2 = myJSONcol2.replace("\"starDescr\"", "\"\"");
-  jsonStarNameCol2 =  jsonStarNameCol2.replace("\"starImgURL\"", "\"\"");
-  let rand_star_col2 = JSON.parse(jsonStarNameCol2);
 
+  let myJSONcol2 = JSON.stringify(rand_star, ["starDescr"]);      
+  let rand_star_col2 = JSON.parse(myJSONcol2);
+  
+  let myJSONcol3 = JSON.stringify(rand_star, ["starImgURL"]);      
+  let rand_star_col3 = JSON.parse(myJSONcol3);
+  
   const generatedHtmlCol1 = Object.keys(rand_star_col1).reduce((accum, currKey) => accum +
   `<div class="p-2">
-    <h3 class="o-stars">${currKey}: ${rand_star_col1[currKey]}</h3>
+    <h4 class="o-stars">${currKey}: ${rand_star_col1[currKey]}</h4>
     </div>`, '');
 
           document.getElementById('container-oa').innerHTML = generatedHtmlCol1;
 
   const generatedHtmlCol2 = Object.keys(rand_star_col2).reduce((accum, currKey) => accum +
     `<div class="p-2">
-      <h3 class="o-stars">${currKey} ${rand_star_col2[currKey]}</h3>
+      <h5 class="o-stars">${rand_star_col2[currKey]}</h5>
       </div>`, '');
 
-          document.getElementById('container-ob').innerHTML = generatedHtmlCol2;
+  const generatedHtmlCol3 = Object.keys(rand_star_col3).reduce((accum, currKey) => accum +
+      `<div class="p-2">
+        <img src ="${rand_star_col3[currKey]}" width= "300px" height= "300px"</img>
+        </div>`, '');
+
+            document.getElementById('container-ob').innerHTML = generatedHtmlCol2 + generatedHtmlCol3;
 
 }
-
 async function getStarDataB() {
   const response = await fetch(star_url);
   const data = await response.json();
