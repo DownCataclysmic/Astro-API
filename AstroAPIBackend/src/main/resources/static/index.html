@@ -52,6 +52,7 @@
             </div>
         </nav>
       
+        <script src="stars.js"></script>
         <h1 style="color: white; text-shadow: 2px 2px #524e4e;"> AstroFinder</h1>    
         <h3 style="color: white; text-shadow: 3px 3px #524e4e;">Explore the Universe!</h3>
         <div>
@@ -68,6 +69,7 @@
           <img src = "button-images/saturn-button.png" width = 75px>
         </button>
         <div>
+        
           <h5 class = "p-4" id='star' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What classification of star?</p>
           <button class="btn btn-dark" id='star-button-o' onclick="getStarDataO()">O</button>
             <div class="p-2 container">
@@ -119,11 +121,41 @@
             </div>
         </div>
         <div>
+        <script src="galaxies.js"></script>  
           <h5 class = "p-4" id='galaxy' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What type of galaxy?</p>
-          <button class="btn btn-dark" href="#">Spiral</button>
-          <button class="btn btn-dark" href="#">Elliptical</button>
-          <button class="btn btn-dark" href="#">Peculiar</button>
-          <button class="btn btn-dark" href="#">Irregular</button>
+            <button class="btn btn-dark" id='galaxy-button-s' onclick="getGalaxyDataSpiral()">Spiral Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-spirala' class="col"></div>
+                <div id = 'container-spiralb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-e' onclick="getGalaxyDataElliptical()">Elliptical Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ellipticala' class="col"></div>
+                <div id = 'container-ellipticalb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-p' onclick="getGalaxyDataPeculiar()">Peculiar Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-peculiara' class="col"></div>
+                <div id = 'container-peculiarb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-i' onclick="getGalaxyDataIrregular()">Irregular Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-irregulara' class="col"></div>
+                <div id = 'container-irregularb' class="col">
+                </div>
+              </div>
+            </div>
+            
         </div>
         <div>
           <h5 class = "p-4" id='planet' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What type of planet?</p>
