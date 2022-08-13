@@ -4,13 +4,14 @@
     <head>
       <style>
             body {
-                  background-image: url('/images/background.jpg');
-                  background-size: cover;
+                  background-image: url('/images/starbackground.avif');
                 }
 
             nav {
               background-color: rgba(0,0,0,0.15) !important;
-            }
+              }
+
+           
 
       </style>
         <meta charset="UTF-8">    
@@ -51,7 +52,7 @@
             </div>
         </nav>
       
-        <h1 style="color: white; text-shadow: 3px 3px #524e4e;"> AstroFinder</h1>    
+        <h1 style="color: white; text-shadow: 2px 2px #524e4e;"> AstroFinder</h1>    
         <h3 style="color: white; text-shadow: 3px 3px #524e4e;">Explore the Universe!</h3>
         <div>
           <img src="images/galaxy-index-image.png" width = 800px/>
@@ -76,16 +77,46 @@
                 </div>
               </div>
             </div>
-          <button class="btn btn-dark" id='star-button-b' onclick="getStarDataB()">B</button>
-            <p style="text-align: left;" id = 'container-b'></p>
-          <button class="btn btn-dark" id='star-button-a' onclick="getStarDataA()">A</button>
-            <p style="text-align: left;" id = 'container-a'></p>
-          <button class="btn btn-dark" id='star-button-f' onclick="getStarDataF()">F</button>
-            <p style="text-align: left;" id = 'container-f'></p>
-          <button class="btn btn-dark" id='star-button-g' onclick="getStarDataG()">G</button>
-            <p style="text-align: left;" id = 'container-g'></p>
-          <button class="btn btn-dark" id='star-button-k' onclick="getStarDataK()">K</button>
-            <p style="text-align: left;" id = 'container-k'></p>
+            <button class="btn btn-dark" id='star-button-b' onclick="getStarDataB()">B</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ba' class="col"></div>
+                <div id = 'container-bb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-a' onclick="getStarDataA()">A</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-aa' class="col"></div>
+                <div id = 'container-ab' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-f' onclick="getStarDataF()">F</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-fa' class="col"></div>
+                <div id = 'container-fb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-g' onclick="getStarDataG()">G</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ga' class="col"></div>
+                <div id = 'container-gb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-k' onclick="getStarDataK()">K</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ka' class="col"></div>
+                <div id = 'container-kb' class="col">
+                </div>
+              </div>
+            </div>
         </div>
         <div>
           <h5 class = "p-4" id='galaxy' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What type of galaxy?</p>
