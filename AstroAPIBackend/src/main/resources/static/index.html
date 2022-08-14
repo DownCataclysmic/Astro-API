@@ -158,12 +158,40 @@
             
         </div>
         <div>
+          <script src="planets.js"></script> 
           <h5 class = "p-4" id='planet' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What type of planet?</p>
-          <button class="btn btn-dark" href="#">Gas Giant</button>
-          <button class="btn btn-dark" href="#">Super-Earth</button>
-          <button class="btn btn-dark" href="#">Neptune-Like</button>
-          <button class="btn btn-dark" href="#">Terrestial</button>
-        </div>
+            <button class="btn btn-dark" id='galaxy-button-s' onclick="getPlanetDataTerrestrial()">Terrestrial</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-t-a' class="col"></div>
+                <div id = 'container-planet-t-b' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-e' onclick="getPlanetDataSE()">Super-Earth</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-se-a' class="col"></div>
+                <div id = 'container-planet-se-b' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-p' onclick="getPlanetDataGG()">Gas Giant</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-gg-a' class="col"></div>
+                <div id = 'container-planet-gg-b' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-i' onclick="getPlanetDataNL()">Neptune-Like</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-nl-a' class="col"></div>
+                <div id = 'container-planet-nl-b' class="col">
+                </div>
+              </div>
+            </div>
       </div>
     </body>
 </html>
