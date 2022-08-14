@@ -43,6 +43,8 @@ public class GalaxyController {
 		updatedGalaxies.setGalaxyDist(galaxies.getGalaxyDist());
 		updatedGalaxies.setGalaxyWidth(galaxies.getGalaxyWidth());
 		updatedGalaxies.setGalaxyBrightness(galaxies.getGalaxyBrightness());
+		updatedGalaxies.setGalaxyImgUrl(galaxies.getGalaxyImgUrl());
+		updatedGalaxies.setGalaxyDescr(galaxies.getGalaxyDescr());
 		
 		galaxyRepo.save(updatedGalaxies);
 		return "We have noted your changes...human...";

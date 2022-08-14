@@ -19,7 +19,7 @@ public class Galaxies {
 	public String toString() {
 		return "Galaxies [id=" + id + ", galaxyName=" + galaxyName + ", galaxyType=" + galaxyType + ", galaxyNumStars="
 				+ galaxyNumStars + ", galaxyDist=" + galaxyDist + ", galaxyWidth=" + galaxyWidth + ", galaxyBrightness="
-				+ galaxyBrightness + "]";
+				+ galaxyBrightness + ", galaxyImgUrl=" + galaxyImgUrl + ", galaxyDescr=" + galaxyDescr + "]";
 	}
 
 	@Column
@@ -40,9 +40,33 @@ public class Galaxies {
 	@Column
 	private String galaxyBrightness;
 	
+	@Column
+	private String galaxyImgUrl;
+	
+	public String getGalaxyImgUrl() {
+		return galaxyImgUrl;
+	}
+
+	public void setGalaxyImgUrl(String galaxyImgUrl) {
+		this.galaxyImgUrl = galaxyImgUrl;
+	}
+
+	@Column
+	private String galaxyDescr;
+	
+
+	public String getGalaxyDescr() {
+		return galaxyDescr;
+	}
+
+	public void setGalaxyDescr(String galaxyDescr) {
+		this.galaxyDescr = galaxyDescr;
+	}
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(galaxyBrightness, galaxyDist, galaxyName, galaxyNumStars, galaxyType, galaxyWidth, id);
+		return Objects.hash(galaxyBrightness, galaxyDescr, galaxyDist, galaxyImgUrl, galaxyName, galaxyNumStars,
+				galaxyType, galaxyWidth, id);
 	}
 
 	@Override
@@ -54,10 +78,11 @@ public class Galaxies {
 		if (getClass() != obj.getClass())
 			return false;
 		Galaxies other = (Galaxies) obj;
-		return Objects.equals(galaxyBrightness, other.galaxyBrightness) && Objects.equals(galaxyDist, other.galaxyDist)
-				&& Objects.equals(galaxyName, other.galaxyName) && Objects.equals(galaxyNumStars, other.galaxyNumStars)
-				&& Objects.equals(galaxyType, other.galaxyType) && Objects.equals(galaxyWidth, other.galaxyWidth)
-				&& Objects.equals(id, other.id);
+		return Objects.equals(galaxyBrightness, other.galaxyBrightness)
+				&& Objects.equals(galaxyDescr, other.galaxyDescr) && Objects.equals(galaxyDist, other.galaxyDist)
+				&& Objects.equals(galaxyImgUrl, other.galaxyImgUrl) && Objects.equals(galaxyName, other.galaxyName)
+				&& Objects.equals(galaxyNumStars, other.galaxyNumStars) && Objects.equals(galaxyType, other.galaxyType)
+				&& Objects.equals(galaxyWidth, other.galaxyWidth) && Objects.equals(id, other.id);
 	}
 	
 	public Long getId() {
