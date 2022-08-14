@@ -6,7 +6,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.validation.constraints.Min;
 
 import javax.persistence.Id;
 
@@ -41,9 +40,26 @@ public class Stars {
 	@Column
 	private String starBrightness;
 	
+	@Column
+	private String starImgURL;
+	
+	@Column
+	private String starDescr;
 	
 	public Long getId() {
 		return id;
+	}
+	public String getStarDescr() {
+		return starDescr;
+	}
+	public void setStarDescr(String starDescr) {
+		this.starDescr = starDescr;
+	}
+	public String getStarImgURL() {
+		return starImgURL;
+	}
+	public void setStarImgURL(String starImgURL) {
+		this.starImgURL = starImgURL;
 	}
 	public void setId(Long id) {
 		this.id = id;
@@ -110,8 +126,8 @@ public class Stars {
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(id, starBrightness, starClass, starColour, starDistFromEarth, starMass, starName,
-				starRadius, starTemp);
+		return Objects.hash(id, starBrightness, starClass, starColour, starDescr, starDistFromEarth, starImgURL,
+				starMass, starName, starRadius, starTemp);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -124,9 +140,11 @@ public class Stars {
 		Stars other = (Stars) obj;
 		return Objects.equals(id, other.id) && Objects.equals(starBrightness, other.starBrightness)
 				&& Objects.equals(starClass, other.starClass) && Objects.equals(starColour, other.starColour)
+				&& Objects.equals(starDescr, other.starDescr)
 				&& Objects.equals(starDistFromEarth, other.starDistFromEarth)
-				&& Objects.equals(starMass, other.starMass) && Objects.equals(starName, other.starName)
-				&& Objects.equals(starRadius, other.starRadius) && Objects.equals(starTemp, other.starTemp);
+				&& Objects.equals(starImgURL, other.starImgURL) && Objects.equals(starMass, other.starMass)
+				&& Objects.equals(starName, other.starName) && Objects.equals(starRadius, other.starRadius)
+				&& Objects.equals(starTemp, other.starTemp);
 	}
 	
 	
