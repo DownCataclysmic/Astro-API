@@ -6,7 +6,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.validation.constraints.Min;
 
 import javax.persistence.Id;
 
@@ -18,33 +17,58 @@ public class Stars {
 	private Long id;
 	
 	@Column
+	private String starClass;
+	
+	@Column
 	private String starName;
 	
 	@Column
-	private Long starMass;
+	private String starMass;
 	
 	@Column
-	private Long starRadius;
+	private String starRadius;
 	
 	@Column
 	private String starColour;
 	
 	@Column
-	@Min(0)
-	private Long starTemp;
+	private String starTemp;
 	
 	@Column
-	private Long starDistFromEarth;
+	private String starDistFromEarth;
 	
 	@Column
-	private Long starBrightness;
+	private String starBrightness;
 	
-
+	@Column
+	private String starImgURL;
+	
+	@Column
+	private String starDescr;
+	
 	public Long getId() {
 		return id;
 	}
+	public String getStarDescr() {
+		return starDescr;
+	}
+	public void setStarDescr(String starDescr) {
+		this.starDescr = starDescr;
+	}
+	public String getStarImgURL() {
+		return starImgURL;
+	}
+	public void setStarImgURL(String starImgURL) {
+		this.starImgURL = starImgURL;
+	}
 	public void setId(Long id) {
 		this.id = id;
+	}
+	public String getStarClass() {
+		return starClass;
+	}
+	public void setStarClass(String starClass) {
+		this.starClass = starClass;
 	}
 	public String getStarName() {
 		return starName;
@@ -52,16 +76,16 @@ public class Stars {
 	public void setStarName(String starName) {
 		this.starName = starName;
 	}
-	public Long getStarMass() {
+	public String getStarMass() {
 		return starMass;
 	}
-	public void setStarMass(Long starMass) {
+	public void setStarMass(String starMass) {
 		this.starMass = starMass;
 	}
-	public Long getStarRadius() {
+	public String getStarRadius() {
 		return starRadius;
 	}
-	public void setStarRadius(Long starRadius) {
+	public void setStarRadius(String starRadius) {
 		this.starRadius = starRadius;
 	}
 	public String getStarColour() {
@@ -70,39 +94,40 @@ public class Stars {
 	public void setStarColour(String starColour) {
 		this.starColour = starColour;
 	}
-	public Long getStarTemp() {
+	public String getStarTemp() {
 		return starTemp;
 	}
-	public void setStarTemp(Long starTemp) {
+	public void setStarTemp(String starTemp) {
 		this.starTemp = starTemp;
 	}
-	public Long getStarDistFromEarth() {
+	public String getStarDistFromEarth() {
 		return starDistFromEarth;
 	}
-	public void setStarDistFromEarth(Long starDistFromEarth) {
+	public void setStarDistFromEarth(String starDistFromEarth) {
 		this.starDistFromEarth = starDistFromEarth;
 	}
-	public Long getStarBrightness() {
+	public String getStarBrightness() {
 		return starBrightness;
 	}
-	public void setStarBrightness(Long starBrightness) {
+	public void setStarBrightness(String starBrightness) {
 		this.starBrightness = starBrightness;
 	}
 	@Override
 	public String toString() {
 		return "Star ID = " + id + "\n"
+				+ "Star Classification = " + starClass + "\n"
 				+ "Name of the Star = " + starName + "\n" 
-				+ "Mass of the Star = " + starMass + "\n" 
-				+ "Star Radius = " + starRadius + "\n" 
+				+ "Mass of the Star = " + starMass + "Solar Masses" + "\n" 
+				+ "Star Radius = " + starRadius + "Solar Radii" + "\n" 
 				+ "Star Colour = " + starColour + "\n" 
-				+ "Temperature of the Star (K) " + starTemp + "\n" 
-				+ "Distance From Earth = " + starDistFromEarth + "\n" 
-				+ "Brightness of the Star = " + starBrightness;
+				+ "Temperature of the Star " + starTemp + "K" + "\n" 
+				+ "Distance From Earth = " + starDistFromEarth + " Parsecs" + "\n" 
+				+ "Brightness of the Star (Apparent Magnitude) = " + starBrightness;
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(id, starBrightness, starColour, starDistFromEarth, starMass, starName, starRadius,
-				starTemp);
+		return Objects.hash(id, starBrightness, starClass, starColour, starDescr, starDistFromEarth, starImgURL,
+				starMass, starName, starRadius, starTemp);
 	}
 	@Override
 	public boolean equals(Object obj) {
@@ -114,10 +139,12 @@ public class Stars {
 			return false;
 		Stars other = (Stars) obj;
 		return Objects.equals(id, other.id) && Objects.equals(starBrightness, other.starBrightness)
-				&& Objects.equals(starColour, other.starColour)
+				&& Objects.equals(starClass, other.starClass) && Objects.equals(starColour, other.starColour)
+				&& Objects.equals(starDescr, other.starDescr)
 				&& Objects.equals(starDistFromEarth, other.starDistFromEarth)
-				&& Objects.equals(starMass, other.starMass) && Objects.equals(starName, other.starName)
-				&& Objects.equals(starRadius, other.starRadius) && Objects.equals(starTemp, other.starTemp);
+				&& Objects.equals(starImgURL, other.starImgURL) && Objects.equals(starMass, other.starMass)
+				&& Objects.equals(starName, other.starName) && Objects.equals(starRadius, other.starRadius)
+				&& Objects.equals(starTemp, other.starTemp);
 	}
 	
 	
