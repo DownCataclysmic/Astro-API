@@ -61,33 +61,84 @@
           <img src = "button-images/saturn-button.png" width = 75px>
         </button>
       <div>
+        <script src= "playgod.js"></script>
         <h5 class = "p-4" id='star' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">Selected: Star</p>
           <button class="btn btn-dark" id='star-button-add' onclick="addStar()">Add</button>
           <div class="p-2 container">
-            <div ></div>
+            <div ><form id="form" method="post">
+              <input type="text", id="starclass" placeholder="Class"/></br>
+              <input type="text", id="starname" placeholder="Name"/></br>
+              <input type="text", id="starmass" placeholder="Mass"/></br>
+              <input type="text", id="starradius" placeholder="Radius"/></br>
+              <input type="text", id="starcolour" placeholder="Colour"/></br>
+              <input type="text", id="startemp" placeholder="Temperature"/></br>
+              <input type="text", id="stardistance" placeholder="Distance"/></br>
+              <input type="text", id="starbrightness" placeholder="Brightness"/></br>
+              <input type="text", id="starimage" placeholder="Image URL"/></br>
+              <input type="text", id="stardescription" placeholder="Description"/></br>
+              <input type="submit" value="Add Star"/>
+           </form> </div>
           </div>
             <button class="btn btn-dark" id='star-button-update' onclick="updateStar()">Update</button>
             <div class="p-2 container">
-              <div ></div>
+              <div ><form id="form" method="put">
+                <input type="text", id="starclass" placeholder="Class"/></br>
+                <input type="text", id="starname" placeholder="Name"/></br>
+                <input type="text", id="starmass" placeholder="Mass"/></br>
+                <input type="text", id="starradius" placeholder="Radius"/></br>
+                <input type="text", id="starcolour" placeholder="Colour"/></br>
+                <input type="text", id="startemp" placeholder="Temperature"/></br>
+                <input type="text", id="stardistance" placeholder="Distance"/></br>
+                <input type="text", id="starbrightness" placeholder="Brightness"/></br>
+                <input type="text", id="starimage" placeholder="Image URL"/></br>
+                <input type="text", id="stardescription" placeholder="Description"/></br>
+                <input type="submit" value="Update Star"/>
+             </form></div>
             </div>
             <button class="btn btn-dark" id='star-button-delete' onclick="deleteStar()">Delete</button>
             <div class="p-2 container">
-              <div ></div>
+              <div ><form id="form" method="delete">
+                <input type="text", id="starid" placeholder="Star ID"/></br>
+                <input type="submit" value="Delete Star"/>
+             </form></div>
             </div>
       </div>
       <div>
         <h5 class = "p-4" id='galaxy' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">Selected: Galaxy</p>
           <button class="btn btn-dark" id='galaxy-button-add' onclick="addGalaxy()">Add</button>
           <div class="p-2 container">
-            <div ></div>
+            <div ><form id="form" method="post">
+              <input type="text", id="galaxyname" placeholder="Name"/></br>
+              <input type="text", id="galaxytype" placeholder="Type"/></br>
+              <input type="text", id="galaxynumstars" placeholder="Number of Stars"/></br>
+              <input type="text", id="galaxydistance" placeholder="Distance"/></br>
+              <input type="text", id="galaxywidth" placeholder="Width"/></br>
+              <input type="text", id="galaxybrightness" placeholder="Brightness"/></br>
+              <input type="text", id="galaxyimage" placeholder="Image URL"/></br>
+              <input type="text", id="galaxydescription" placeholder="Description"/></br>
+              <input type="submit" value="Add Galaxy"/>
+           </form></div>
           </div>
           <button class="btn btn-dark" id='galaxy-button-update' onclick="updateGalaxy()">Update</button>
           <div class="p-2 container">
-            <div ></div>
+            <div ><form id="form" method="put">
+              <input type="text", id="galaxyname" placeholder="Name"/></br>
+              <input type="text", id="galaxytype" placeholder="Type"/></br>
+              <input type="text", id="galaxynumstars" placeholder="Number of Stars"/></br>
+              <input type="text", id="galaxydistance" placeholder="Distance"/></br>
+              <input type="text", id="galaxywidth" placeholder="Width"/></br>
+              <input type="text", id="galaxybrightness" placeholder="Brightness"/></br>
+              <input type="text", id="galaxyimage" placeholder="Image URL"/></br>
+              <input type="text", id="galaxydescription" placeholder="Description"/></br>
+              <input type="submit" value="Update Galaxy"/>
+           </form></div>
           </div>
           <button class="btn btn-dark" id='galaxy-button-delete' onclick="deleteGalaxy()">Delete</button>
           <div class="p-2 container">
-            <div ></div>
+            <div ><form id="form" method="delete">
+              <input type="text", id="galaxyid" placeholder="Galaxy ID"/></br>
+              <input type="submit" value="Delete Galaxy"/>
+           </form></div>
           </div>
       </div>
 
@@ -95,15 +146,38 @@
         <h5 class = "p-4" id='planet' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">Selected: Planet</p>
           <button class="btn btn-dark" id='planet-button-add' onclick="addPlanet()">Add</button>
           <div class="p-2 container">
-            <div ></div>
+            <div ><form id="form" method="post">
+              <input type="text", id="planetname" placeholder="Name"/></br>
+              <input type="text", id="planettype" placeholder="Type"/></br>
+              <input type="text", id="planetmass" placeholder="Mass"/></br>
+              <input type="text", id="planetradius" placeholder="Radius"/></br>
+              <input type="text", id="planettilt" placeholder="Tilt (Degrees)"/></br>
+              <input type="text", id="planetdistance" placeholder="Distance"/></br>
+              <input type="text", id="planetdescription" placeholder="Description"/></br>
+              <input type="text", id="planetimage" placeholder="Image URL"/></br>
+              <input type="submit" value="Add Planet"/>
+           </form></div>
           </div>
           <button class="btn btn-dark" id='planet-button-update' onclick="updatePlanet()">Update</button>
           <div class="p-2 container">
-            <div ></div>
+            <div ><form id="form" method="put">
+              <input type="text", id="planetname" placeholder="Name"/></br>
+              <input type="text", id="planettype" placeholder="Type"/></br>
+              <input type="text", id="planetmass" placeholder="Mass"/></br>
+              <input type="text", id="planetradius" placeholder="Radius"/></br>
+              <input type="text", id="planettilt" placeholder="Tilt (Degrees)"/></br>
+              <input type="text", id="planetdistance" placeholder="Distance"/></br>
+              <input type="text", id="planetdescription" placeholder="Description"/></br>
+              <input type="text", id="planetimage" placeholder="Image URL"/></br>
+              <input type="submit" value="Update Planet"/>
+           </form></div>
           </div>
           <button class="btn btn-dark" id='planet-button-delete' onclick="deletePlanet()">Delete</button>
           <div class="p-2 container">
-            <div ></div>
+            <div ><form id="form" method="delete">
+              <input type="text", id="planetname" placeholder="Planet ID"/></br>
+              <input type="submit" value="Delete Planet"/>
+           </form></div>
           </div>
       </div>
 
