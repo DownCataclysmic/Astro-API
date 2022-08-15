@@ -90,7 +90,6 @@ async function getGalaxyDataElliptical() {
                 document.getElementById('container-ellipticalb').innerHTML = generatedHtmlCol3 + generatedHtmlCol2;
     
     }
-
 async function getGalaxyDataPeculiar() {
     const response = await fetch(galaxy_url);
     const data = await response.json();
