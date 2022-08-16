@@ -43,34 +43,30 @@ formgalaxyadd.addEventListener('submit', function(e){
 }).catch(error => console.error('Error:', error)); 
 });
 
-formstarupdate.addEventListener('submit', function(e){
+formgalaxyupdate.addEventListener('submit', function(e){
     e.preventDefault()
    
-    let staridupdate = document.getElementById('staridupdate').value;
-    let starclassupdate = document.getElementById('starclassupdate').value;
-    let starnameupdate = document.getElementById('starnameupdate').value;
-    let starmassupdate = document.getElementById('starmassupdate').value;
-    let starradiusupdate = document.getElementById('starradiusupdate').value;
-    let starcolourupdate = document.getElementById('starcolourupdate').value;
-    let startempupdate = document.getElementById('startempupdate').value;
-    let stardistanceupdate = document.getElementById('stardistanceupdate').value;
-    let starbrightnessupdate = document.getElementById('starbrightnessupdate').value;
-    let starimageupdate = document.getElementById('starimageupdate').value;
-    let stardescriptionupdate = document.getElementById('stardescriptionupdate').value;
+    let galaxyidupdate = document.getElementById('galaxyidupdate').value;
+    let galaxynameupdate = document.getElementById('galaxynameupdate').value;
+    let galaxytypeupdate = document.getElementById('galaxytypeupdate').value;
+    let galaxynumstarsupdate = document.getElementById('galaxynumstarsupdate').value;
+    let galaxydistanceupdate = document.getElementById('galaxydistanceupdate').value;
+    let galaxywidthupdate = document.getElementById('galaxywidthupdate').value;
+    let galaxybrightnessupdate = document.getElementById('galaxybrightnessupdate').value;
+    let galaxyimageupdate = document.getElementById('galaxydistanceupdate').value;
+    let galaxydescriptionupdate = document.getElementById('galaxydescriptionupdate').value;
    
-    fetch(`http://localhost:8080/update/${staridupdate}`, {
+    fetch(`http://localhost:8080/updategalaxies/${galaxyidupdate}`, {
      method: 'PUT',
      body: JSON.stringify({
-       starClass:starclassupdate,
-       starName:starnameupdate,
-       starMass:starmassupdate,
-       starRadius:starradiusupdate,
-       starColour:starcolourupdate,
-       starTemp:startempupdate,
-       starDistFromEarth:stardistanceupdate,
-       starBrightness:starbrightnessupdate,
-       starImgURL:starimageupdate,
-       starDescr:stardescriptionupdate,
+        galaxyName:galaxynameupdate,
+        galaxyType:galaxytypeupdate,
+        galaxyNumStars:galaxynumstarsupdate,
+        galaxyDist:galaxydistanceupdate,
+        galaxyWidth:galaxywidthupdate,
+        galaxyBrightness:galaxybrightnessupdate,
+        galaxyImgUrl:galaxyimageupdate,
+        galaxyDescr:galaxydescriptionupdate,
    
      }),
      headers: {
@@ -88,12 +84,12 @@ formstarupdate.addEventListener('submit', function(e){
    }).catch(error => console.error('Error:', error)); 
    });
 
-   formstardelete.addEventListener('submit', function(e){
+   formgalaxydelete.addEventListener('submit', function(e){
     e.preventDefault()
    
-    let stariddelete = document.getElementById('stariddelete').value;
+    let galaxyiddelete = document.getElementById('galaxyiddelete').value;
    
-    fetch(`http://localhost:8080/delete/${stariddelete}`, {
+    fetch(`http://localhost:8080/delete/${galaxyiddelete}`, {
      method: 'DELETE'
      ,
      headers: {
