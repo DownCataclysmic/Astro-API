@@ -50,7 +50,7 @@ formstaradd.addEventListener('submit', function(e){
     starbrightnessadd = document.getElementById('starbrightnessadd');
     starimageadd = document.getElementById('starimageadd');
     stardescriptionadd = document.getElementById('stardescriptionadd');
-    
+
   starclassadd.innerHTML = data.starclassadd;
   starnameadd.innerHTML = data.starnameadd;
   starmassadd.innerHTML = data.starmassadd;
@@ -63,6 +63,7 @@ formstaradd.addEventListener('submit', function(e){
   stardescriptionadd.innerHTML = data.stardescriptionadd;
     
 }).catch(error => console.error('Error:', error)); 
+document.getElementById("staraddsuccess").innerHTML = `Star: "${starnameadd}" successfully added. `;
 });
 
 formstarupdate.addEventListener('submit', function(e){
@@ -108,6 +109,7 @@ formstarupdate.addEventListener('submit', function(e){
      title.innerHTML = data.title
      body.innerHTML = data.body  
    }).catch(error => console.error('Error:', error)); 
+   document.getElementById("starupdatesuccess").innerHTML = `Star with the ID: "${staridupdate}"  has been successfully updated. `;
    });
 
    formstardelete.addEventListener('submit', function(e){
@@ -130,5 +132,6 @@ formstarupdate.addEventListener('submit', function(e){
      body=document.getElementById("bd")
      title.innerHTML = data.title
      body.innerHTML = data.body  
-   }).catch(error => console.error('Error:', error)); 
+   }).catch(error => console.error('Error:', error));
+   document.getElementById("stardeletesuccess").innerHTML = `Star with the ID: "${stariddelete}"  has been successfully deleted. `;
    });

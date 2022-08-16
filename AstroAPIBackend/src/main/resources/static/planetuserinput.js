@@ -41,6 +41,7 @@ formplanetadd.addEventListener('submit', function(e){
   title.innerHTML = data.title
   body.innerHTML = data.body  
 }).catch(error => console.error('Error:', error)); 
+document.getElementById("planetaddsuccess").innerHTML = `Planet: "${planetnameadd}" successfully added. `;
 });
 
 formplanetupdate.addEventListener('submit', function(e){
@@ -82,6 +83,7 @@ formplanetupdate.addEventListener('submit', function(e){
      title.innerHTML = data.title
      body.innerHTML = data.body  
    }).catch(error => console.error('Error:', error)); 
+   document.getElementById("planetupdatesuccess").innerHTML = `Planet with the ID: "${planetidupdate}"  has been successfully updated.`
    });
 
    formplanetdelete.addEventListener('submit', function(e){
@@ -105,4 +107,5 @@ formplanetupdate.addEventListener('submit', function(e){
      title.innerHTML = data.title
      body.innerHTML = data.body  
    }).catch(error => console.error('Error:', error)); 
+   document.getElementById("planetdeletesuccess").innerHTML = `Planet with the ID: "${planetiddelete}"  has been successfully deleted.`
    });

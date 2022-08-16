@@ -41,6 +41,7 @@ formgalaxyadd.addEventListener('submit', function(e){
   title.innerHTML = data.title
   body.innerHTML = data.body  
 }).catch(error => console.error('Error:', error)); 
+document.getElementById("galaxyaddsuccess").innerHTML = `Galaxy: "${galaxynameadd}" successfully added. `;
 });
 
 formgalaxyupdate.addEventListener('submit', function(e){
@@ -82,6 +83,7 @@ formgalaxyupdate.addEventListener('submit', function(e){
      title.innerHTML = data.title
      body.innerHTML = data.body  
    }).catch(error => console.error('Error:', error)); 
+   document.getElementById("galaxyupdatesuccess").innerHTML = `Galaxy with the ID: "${galaxyidupdate}"  has been successfully updated.`
    });
 
    formgalaxydelete.addEventListener('submit', function(e){
@@ -104,5 +106,6 @@ formgalaxyupdate.addEventListener('submit', function(e){
      body=document.getElementById("bd")
      title.innerHTML = data.title
      body.innerHTML = data.body  
-   }).catch(error => console.error('Error:', error)); 
+   }).catch(error => console.error('Error:', error));
+   document.getElementById("galaxydeletesuccess").innerHTML = `Galaxy with the ID: "${galaxyiddelete}"  has been successfully deleted.` 
    });
