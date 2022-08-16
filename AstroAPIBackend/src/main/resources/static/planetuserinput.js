@@ -45,28 +45,28 @@ formplanetadd.addEventListener('submit', function(e){
 
 formplanetupdate.addEventListener('submit', function(e){
     e.preventDefault()
+
+ let planetidupdate = document.getElementById('planetidupdate').value;
+ let planetnameupdate = document.getElementById('planetnameupdate').value;
+ let planettypeupdate = document.getElementById('planettypeupdate').value;
+ let planetmassupdate = document.getElementById('planetmassupdate').value;
+ let planetradiusupdate = document.getElementById('planetradiusupdate').value;
+ let planettiltupdate = document.getElementById('planettiltupdate').value;
+ let planetdistanceupdate = document.getElementById('planetdistanceupdate').value;
+ let planetdescriptionupdate = document.getElementById('planetdescriptionupdate').value;
+ let planetimageupdate = document.getElementById('planetimageupdate').value;
    
-    let galaxyidupdate = document.getElementById('galaxyidupdate').value;
-    let galaxynameupdate = document.getElementById('galaxynameupdate').value;
-    let galaxytypeupdate = document.getElementById('galaxytypeupdate').value;
-    let galaxynumstarsupdate = document.getElementById('galaxynumstarsupdate').value;
-    let galaxydistanceupdate = document.getElementById('galaxydistanceupdate').value;
-    let galaxywidthupdate = document.getElementById('galaxywidthupdate').value;
-    let galaxybrightnessupdate = document.getElementById('galaxybrightnessupdate').value;
-    let galaxyimageupdate = document.getElementById('galaxydistanceupdate').value;
-    let galaxydescriptionupdate = document.getElementById('galaxydescriptionupdate').value;
-   
-    fetch(`http://localhost:8080/updateplanets/${galaxyidupdate}`, {
+    fetch(`http://localhost:8080/updateplanets/${planetidupdate}`, {
      method: 'PUT',
      body: JSON.stringify({
-        galaxyName:galaxynameupdate,
-        galaxyType:galaxytypeupdate,
-        galaxyNumStars:galaxynumstarsupdate,
-        galaxyDist:galaxydistanceupdate,
-        galaxyWidth:galaxywidthupdate,
-        galaxyBrightness:galaxybrightnessupdate,
-        galaxyImgUrl:galaxyimageupdate,
-        galaxyDescr:galaxydescriptionupdate,
+        planetName:planetnameupdate,
+        planetType:planettypeupdate,
+        planetMass:planetmassupdate,
+        planetRadius:planetradiusupdate,
+        planetTilt:planettiltupdate,
+        planetDistFromEarth:planetdistanceupdate,
+        planetDescr:planetdescriptionupdate,
+        planetImgUrl:planetimageupdate,
    
      }),
      headers: {
