@@ -40,10 +40,28 @@ formstaradd.addEventListener('submit', function(e){
   return response.json()})
   .then(function(data)
   {console.log(data)
-  title=document.getElementById("title")
-  body=document.getElementById("bd")
-  title.innerHTML = data.title
-  body.innerHTML = data.body  
+    starclassadd = document.getElementById('starclassadd');
+    starnameadd = document.getElementById('starnameadd');
+    starmassadd = document.getElementById('starmassadd');
+    starradiusadd = document.getElementById('starradiusadd');
+    starcolouradd = document.getElementById('starcolouradd');
+    startempadd = document.getElementById('startempadd');
+    stardistanceadd = document.getElementById('stardistanceadd');
+    starbrightnessadd = document.getElementById('starbrightnessadd');
+    starimageadd = document.getElementById('starimageadd');
+    stardescriptionadd = document.getElementById('stardescriptionadd');
+    
+  starclassadd.innerHTML = data.starclassadd;
+  starnameadd.innerHTML = data.starnameadd;
+  starmassadd.innerHTML = data.starmassadd;
+  starradiusadd.innerHTML = data.starradiusadd;
+  starcolouradd.innerHTML = data.starcolouradd;
+  startempadd.innerHTML = data.startempadd;
+  stardistanceadd.innerHTML = data.stardistanceadd;
+  starbrightnessadd.innerHTML = data.starbrightnessadd;
+  starimageadd.innerHTML = data.starimageadd;
+  stardescriptionadd.innerHTML = data.stardescriptionadd;
+    
 }).catch(error => console.error('Error:', error)); 
 });
 

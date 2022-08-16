@@ -114,15 +114,10 @@ public class Stars {
 	}
 	@Override
 	public String toString() {
-		return "Star ID = " + id + "\n"
-				+ "Star Classification = " + starClass + "\n"
-				+ "Name of the Star = " + starName + "\n" 
-				+ "Mass of the Star = " + starMass + "Solar Masses" + "\n" 
-				+ "Star Radius = " + starRadius + "Solar Radii" + "\n" 
-				+ "Star Colour = " + starColour + "\n" 
-				+ "Temperature of the Star " + starTemp + "K" + "\n" 
-				+ "Distance From Earth = " + starDistFromEarth + " Parsecs" + "\n" 
-				+ "Brightness of the Star (Apparent Magnitude) = " + starBrightness;
+		return "Stars [id=" + id + ", starClass=" + starClass + ", starName=" + starName + ", starMass=" + starMass
+				+ ", starRadius=" + starRadius + ", starColour=" + starColour + ", starTemp=" + starTemp
+				+ ", starDistFromEarth=" + starDistFromEarth + ", starBrightness=" + starBrightness + ", starImgURL="
+				+ starImgURL + ", starDescr=" + starDescr + "]";
 	}
 	@Override
 	public int hashCode() {
