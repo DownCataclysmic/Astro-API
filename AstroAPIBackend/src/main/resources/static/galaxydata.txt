@@ -1,0 +1,157 @@
+----------------------Spiral Galaxies-------------------------------
+{ 
+    "galaxyName":"Andromeda Galaxy",
+    "galaxyType": "SA(s)b",
+    "galaxyNumStars": "~ 1 trillion",
+    "galaxyDist": "752 kpc",
+    "galaxyWidth": "46.56 kpc",
+    "galaxyBrightness": "3.44",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Andromeda_Galaxy_560mm_FL.jpg/1024px-Andromeda_Galaxy_560mm_FL.jpg",
+    "galaxyDescr":"The Andromeda Galaxy (IPA: /ænˈdrɒmɪdə/), also known as Messier 31, M31, or NGC 224 and originally the Andromeda Nebula, is a barred spiral galaxy with diameter of about 46.56 kiloparsecs (152,000 light-years) approximately 2.5 million light-years (770 kiloparsecs) from Earth and the nearest large galaxy to the Milky Way. The galaxy's name stems from the area of Earth's sky in which it appears, and named after the princess who was the wife of Perseus in Greek mythology."
+}
+{
+    "galaxyName":"Pinwheel Galaxy",
+    "galaxyType": "SAB(rs)cd",
+    "galaxyNumStars": "1 trillion",
+    "galaxyDist": "6.4 Mpc",
+    "galaxyWidth": "51.91 kpc",
+    "galaxyBrightness": "7.9",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/M101_hires_STScI-PRC2006-10a.jpg/1280px-M101_hires_STScI-PRC2006-10a.jpg",
+    "galaxyDescr":"The Pinwheel Galaxy (also known as Messier 101, M101 or NGC 5457) is a face-on spiral galaxy 21 million light-years (6.4 megaparsecs) away from Earth in the constellation Ursa Major. It was discovered by Pierre Méchain in 1781 and was communicated that year to Charles Messier, who verified its position for inclusion in the Messier Catalogue as one of its final entries."
+}
+{
+    "galaxyName":"Triangulum Galaxy",
+    "galaxyType": "SA(s)cd",
+    "galaxyNumStars": "40 billion",
+    "galaxyDist": "970 kpc",
+    "galaxyWidth": "18.74 kpc",
+    "galaxyBrightness": "5.72",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/VST_snaps_a_very_detailed_view_of_the_Triangulum_Galaxy.jpg/800px-VST_snaps_a_very_detailed_view_of_the_Triangulum_Galaxy.jpg",
+    "galaxyDescr":"The Triangulum Galaxy is a spiral galaxy 2.73 million light-years (ly) from Earth in the constellation Triangulum. It is catalogued as Messier 33 or NGC (New General Catalogue) 598. With the D25 isophotal diameter of 18.74 kiloparsecs (61,100 light-years), the Triangulum Galaxy is the third-largest member of the Local Group of galaxies, behind the Andromeda Galaxy and the Milky Way. It is one of the most distant permanent objects that can be viewed with the naked eye."
+}
+{
+    "galaxyName":"Whirlpool Galaxy",
+    "galaxyType": "SA(s)bc pec",
+    "galaxyNumStars": "100 billion",
+    "galaxyDist": " 9.5 Mpc",
+    "galaxyWidth": "23.3 kpc",
+    "galaxyBrightness": "8.4",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/1280px-Messier51_sRGB.jpg",
+    "galaxyDescr":"The Whirlpool Galaxy, also known as Messier 51a, M51a, and NGC 5194, is an interacting grand-design spiral galaxy with a Seyfert 2 active galactic nucleus. It lies in the constellation Canes Venatici, and was the first galaxy to be classified as a spiral galaxy. Its distance is 31 million light-years away from Earth. The galaxy and its companion, NGC 5195, are easily observed by amateur astronomers, and the two galaxies may be seen with binoculars."
+}
+
+----------------------Elliptical Galaxies-------------------------------
+{
+    "galaxyName":"Messier 87",
+    "galaxyType": "E+0-1 pec",
+    "galaxyNumStars": "1 trillion",
+    "galaxyDist": "16.4 Mpc",
+    "galaxyWidth": "40.55 kpc",
+    "galaxyBrightness": "8.6",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Messier_87_Hubble_WikiSky.jpg/1024px-Messier_87_Hubble_WikiSky.jpg",
+    "galaxyDescr":"Messier 87 (also known as Virgo A or NGC 4486, generally abbreviated to M87) is a supergiant elliptical galaxy with several trillion stars in the constellation Virgo. One of the largest and most massive galaxies in the local universe, it has a large population of globular clusters — about 15,000 compared with the 150–200 orbiting the Milky Way — and a jet of energetic plasma that originates at the core and extends at least 1,500 parsecs (4,900 light-years), traveling at a relativistic speed."
+}
+{
+    "galaxyName":"Centaurus A",
+    "galaxyType": "S0 pec",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "10–16 Mly",
+    "galaxyWidth": "60,000 ly",
+    "galaxyBrightness": "6.84",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/ESO_Centaurus_A_LABOCA.jpg/800px-ESO_Centaurus_A_LABOCA.jpg",
+    "galaxyDescr":"Centaurus A (also known as NGC 5128 or Caldwell 77) is a galaxy in the constellation of Centaurus. It was discovered in 1826 by Scottish astronomer James Dunlop from his home in Parramatta, in New South Wales, Australia. There is considerable debate in the literature regarding the galaxy's fundamental properties such as its Hubble type (lenticular galaxy or a giant elliptical galaxy) and distance (10–16 million light-years)."
+}
+{ 
+    "galaxyName":"IC 1101",
+    "galaxyType": "cD; S0-",
+    "galaxyNumStars": "100 trillion",
+    "galaxyDist": "334.3 Mpc",
+    "galaxyWidth": "91.58 kpc",
+    "galaxyBrightness": "13.22",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/f/fd/IC_1101_in_Abell_2029_%28hst_06228_03_wfpc2_f702w_pc%29.jpg",
+    "galaxyDescr":"IC 1101 is a class S0 supergiant (cD) lenticular galaxy at the center of the Abell 2029 galaxy cluster. It has an isophotal diameter of 91.58 kiloparsecs (300,000 ly). It possesses a diffuse core which is the largest known core of any galaxy to date, and also hosts a supermassive black hole that is one of the largest black holes known. The galaxy is located at 334.3 megaparsecs (1,090 million light-years) from Earth."
+}
+{ 
+    "galaxyName":"NeVe 1",
+    "galaxyType": "E, cD",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "126.08 Mpc",
+    "galaxyWidth": "101.74 kpc",
+    "galaxyBrightness": "Not Visible",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/8/83/Ophicus_Explosion.jpg",
+    "galaxyDescr":"NeVe 1 is a supergiant elliptical galaxy and the central, dominant member of the Ophiuchus Cluster, about 411 million light-years away from Earth behind the Zone of Avoidance region of the sky. It is notable for being the host galaxy of the Ophiuchus Supercluster eruption, the most energetic astronomical event known."
+}
+
+----------------------Peculiar Galaxies-------------------------------
+{ 
+    "galaxyName":"Antennae Galaxies",
+    "galaxyType": "SB(s)m pec / SA(s)m pec",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "45 Mly",
+    "galaxyWidth": "150 kpc",
+    "galaxyBrightness": "11.2",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Antennae_Galaxies_reloaded.jpg/1024px-Antennae_Galaxies_reloaded.jpg",
+    "galaxyDescr":"The Antennae Galaxies (also known as NGC 4038/NGC 4039 or Caldwell 60/Caldwell 61) are a pair of interacting galaxies in the constellation Corvus. They are currently going through a starburst phase, in which the collision of clouds of gas and dust, with entangled magnetic fields, causes rapid star formation. They were discovered by William Herschel in 1785."
+}
+{ 
+    "galaxyName":"Arp 147",
+    "galaxyType": "SB bc",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "134.9 Mpc",
+    "galaxyWidth": "115,000 ly",
+    "galaxyBrightness": "14.3",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arp_147.jpg/1024px-Arp_147.jpg",
+    "galaxyDescr":"Arp 147 (also known as IC 298) is an interacting pair of ring galaxies. It lies 430 million to 440 million light years away in the constellation Cetus and does not appear to be part of any significant galaxy group. The system was originally discovered in 1893 by Stephane Javelle and is listed in the Atlas of Peculiar Galaxies."
+}
+{ 
+    "galaxyName":"IC 883",
+    "galaxyType": "Irr (Im/P)",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "98.4 Mpc",
+    "galaxyWidth": "131 kly",
+    "galaxyBrightness": "13.8",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hubble_Interacting_Galaxy_IC_883_%282008-04-24%29.jpg/1024px-Hubble_Interacting_Galaxy_IC_883_%282008-04-24%29.jpg",
+    "galaxyDescr":"IC 883 (also known as Arp 193, IRAS 13183+3423, PGC 46560 and UGC 8387) is an irregular galaxy that is about 321 million light years away from Earth. It is located in the constellation Canes Venatici. Its largest radius is 1.4 (131 thousand light years), and smallest 0.7 angular minutes (65 thousand light years). It was discovered by Rudolf Ferdinand Spitaler on May 1 1891."
+}
+{ 
+    "galaxyName":"NGC 1097",
+    "galaxyType": "(R'_1:)SB(r'l)bSy1",
+    "galaxyNumStars": "1 Trillion",
+    "galaxyDist": "45 million ly",
+    "galaxyWidth": "140 kly",
+    "galaxyBrightness": "10.2",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NGC1097_-_ESO_-_eso0438d.jpg/800px-NGC1097_-_ESO_-_eso0438d.jpg",
+    "galaxyDescr":"NGC 1097 (also known as Caldwell 67) is a barred spiral galaxy about 45 million light years away in the constellation Fornax. It was discovered by William Herschel on 9 October 1790. It is a severely interacting galaxy with obvious tidal debris and distortions caused by interaction with the companion galaxy NGC 1097A."
+}
+
+----------------------Irregular Galaxies-------------------------------
+{ 
+    "galaxyName":"IC 4710",
+    "galaxyType": "Irr",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "34 Mly",
+    "galaxyWidth": "36 kly",
+    "galaxyBrightness": "11.9",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/A_frenzy_of_stars_IC_4710.jpg/250px-A_frenzy_of_stars_IC_4710.jpg",
+    "galaxyDescr":"IC 4710 is a galaxy in southern constellation of Pavo, roughly 34 million light-years away. Discovered on August 18, 1900 by astronomer DeLisle Stewart, this galaxy is composed of bright stars, with bright pockets — marking bursts of new star formation — scattered around its edges. It has a diameter of 36,000 light-years."
+}
+{ 
+    "galaxyName":"NGC 1427A",
+    "galaxyType": "IB(s)m",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "15.9 Mpc",
+    "galaxyWidth": "16 kpc",
+    "galaxyBrightness": "13.4",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Irregular_galaxy_NGC_1427A_%28captured_by_the_Hubble_Space_Telescope%29.jpg/800px-Irregular_galaxy_NGC_1427A_%28captured_by_the_Hubble_Space_Telescope%29.jpg",
+    "galaxyDescr":"NGC 1427A is an irregular galaxy in the constellation Fornax. Its distance modulus has been estimated using the globular cluster luminosity function to be 31.01 ± 0.21 which is about 52 Mly. It is the brightest dwarf irregular member of the Fornax cluster and is in the foreground of the cluster's central galaxy NGC 1399."
+}
+{ 
+    "galaxyName":"IC 3583",
+    "galaxyType": "Irr",
+    "galaxyNumStars": "Unknown",
+    "galaxyDist": "30 Mly",
+    "galaxyWidth": "Unknown",
+    "galaxyBrightness": "13.3",
+    "galaxyImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/IC_3583_-_HST_-_Potw1648a.tif/lossy-page1-1024px-IC_3583_-_HST_-_Potw1648a.tif.jpg",
+    "galaxyDescr":"IC 3583 is an irregular galaxy some 30 million light-years away in the constellation of Virgo. It was discovered by Isaac Roberts on April 29, 1892. It may seem to have no discernable structure, but IC 3583 has been found to have a bar of stars running through its centre."
+}

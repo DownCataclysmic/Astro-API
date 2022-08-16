@@ -46,6 +46,7 @@ public class Stars {
 	@Column
 	private String starDescr;
 	
+	
 	public Long getId() {
 		return id;
 	}

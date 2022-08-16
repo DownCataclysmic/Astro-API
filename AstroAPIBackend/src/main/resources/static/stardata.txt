@@ -1,0 +1,391 @@
+----------------------O Stars-------------------------------
+{
+    "starClass":"O",
+    "starName": "9 Sagittarii",
+    "starMass": "55",
+    "starRadius": "13.1",
+    "starColour": "Blue",
+    "starTemp": "43850",
+    "starDistFromEarth": "1790",
+    "starBrightness": "5.97",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hourglass_Nebula_region_of_Messier_8_%28M8%29_in_the_32_inch_Schulman_telescope_on_Mt._Lemmon%2C_AZ.jpg/1024px-Hourglass_Nebula_region_of_Messier_8_%28M8%29_in_the_32_inch_Schulman_telescope_on_Mt._Lemmon%2C_AZ.jpg"
+    "starDescr":"9 Sgr is a naked eye star lying in the direction of the Lagoon Nebula (Messier 8), very close to the central condensation of the Hourglass Nebula around Herschel 36. It was not catalogued by Bayer with a Greek letter, but was listed by Flamsteed as number 9 in the constellation Sagittarius. It lies close to the open cluster NGC 6530. 9 Sgr is the main source of ionisation for much of the visible nebulosity in the region, although the young O star Herschel 36 ionises the dense Hourglass Nebula region"
+}
+
+{
+    "starClass":"O",
+    "starName": "BI 253",
+    "starMass": "97.6",
+    "starRadius": "13.9",
+    "starColour": "Blue",
+    "starTemp": "54000",
+    "starDistFromEarth": "50000",
+    "starBrightness": "5.97",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/BI_253_Tarantula.jpg/260px-BI_253_Tarantula.jpg",
+    "starDescr":"BI 253 is an O2V star in the Large Magellanic Cloud and is a primary standard of the O2 type. It is one of the hottest main-sequence stars known and one of the most-massive and most-luminous stars known."
+}
+{
+    "starClass":"O",
+    "starName": "Meissa",
+    "starMass": "27.9",
+    "starRadius": "13.4",
+    "starColour": "Blue",
+    "starTemp": "35000",
+    "starDistFromEarth": "410",
+    "starBrightness": "3.33",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Lambda_Orionis.jpg/1024px-Lambda_Orionis.jpg"
+    "starDescr":"Meissa /ˈmaɪsə/, designated Lambda Orionis (λ Orionis, abbreviated Lambda Ori, λ Ori) is a star in the constellation of Orion. It is a multiple star approximately 1,300 ly away with a combined apparent magnitude of 3.33. The main components are an O8 giant star and a B-class main sequence star, separated by about 4″
+}
+
+{
+    "starClass":"O",
+    "starName": "Tau Canis Majoris",
+    "starMass": "50",
+    "starRadius": "19.8",
+    "starColour": "Blue",
+    "starTemp": "32000",
+    "starDistFromEarth": "1570",
+    "starBrightness": "4.4",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Taucanismajoris.jpg",
+    "starDescr":"Tau Canis Majoris (τ CMa, τ Canis Majoris, 30 CMa) is a multiple star system in the constellation Canis Major. It is approximately 5,000 light years distant from Earth and is the brightest member of the open cluster NGC 2362."
+}
+
+{
+    "starClass":"O",
+    "starName": "Alnitak",
+    "starMass": "33",
+    "starRadius": "21",
+    "starColour": "Blue",
+    "starTemp": "29500",
+    "starDistFromEarth": "387",
+    "starBrightness": "1.77",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/b/b2/Ngc2024_2mass.jpg",
+    "starDescr":"Alnitak /ælˈnaɪtæk/, designation ζ Orionis (Latinised to Zeta Orionis, abbreviated Zeta Ori, ζ Ori) and 50 Orionis (abbreviated 50 Ori), is a triple star system in the constellation of Orion several hundred parsecs from the Sun. It is one of the three main stars of Orion's Belt along with Alnilam and Mintaka."
+}
+
+-------------------B Stars------------------------------------------
+{
+    "starClass":"B",
+    "starName": "Eta Canis Majoris",
+    "starMass": "19.2",
+    "starRadius": "56.3",
+    "starColour": "Blue",
+    "starTemp": "15000",
+    "starDistFromEarth": "600",
+    "starBrightness": "2.45",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Canis_Major_constellation_map.svg/1024px-Canis_Major_constellation_map.svg.png",
+    "starDescr":"Eta Canis Majoris (η Canis Majoris, abbreviated Eta CMa, η CMa), also named Aludra /əˈluːdrə, əˈljuːdrə/, is a star in the constellation of Canis Major. Since 1943, the spectrum of this star has served as one of the stable anchor points by which other stars are classified."
+}
+
+{
+    "starClass":"B",
+    "starName": "Upsilon Orionis",
+    "starMass": "20",
+    "starRadius": "7.2",
+    "starColour": "Blue-white",
+    "starTemp": "33400",
+    "starDistFromEarth": "900",
+    "starBrightness": "4.618",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Orion_constellation_map.svg/1024px-Orion_constellation_map.svg.png",
+    "starDescr":"Upsilon Orionis (υ Ori, υ Orionis) is a star in the constellation Orion. It has the traditional name Thabit /ˈθeɪbɪt/ or Tabit (ﺛﺎﺑﺖ, Arabic for "the endurer"), a name shared with pi3 Orionis. It is a blue-white main sequence star of apparent magnitude 4.62 located over 3000 light-years distant from the Solar System. It is a suspected Beta Cephei variable."
+}
+{
+    "starClass":"B",
+    "starName": "9 Cephei",
+    "starMass": "21",
+    "starRadius": "39.8",
+    "starColour": "Blue",
+    "starTemp": "18000",
+    "starDistFromEarth": "950",
+    "starBrightness": "4.69",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Cepheus_constellation_map.svg/800px-Cepheus_constellation_map.svg.png",
+    "starDescr":"9 Cephei (9 Cep), also known as V337 Cephei, is a variable star in the constellation Cepheus. Calculations of the physical properties of 9 Cephei vary considerably even from broadly similar observational data. Modelling using the non-LTE line-blanketed CMFGEN atmospheric code gives a temperature of 18,000 K, radius of 40 R☉, luminosity of 151,000 L☉, and mass of 21 M☉."
+}
+
+{
+    "starClass":"B",
+    "starName": "Rigel",
+    "starMass": "21",
+    "starRadius": "78.9",
+    "starColour": "Blue-white",
+    "starTemp": "12100",
+    "starDistFromEarth": "264",
+    "starBrightness": "6.67",
+    "starImgURL":"https://cdn.britannica.com/40/161540-050-02AD19F8/Rigel-Witch-Head-Nebula.jpg",
+    "starDescr":"Rigel is a blue supergiant star in the constellation of Orion. It has the Bayer designation β Orionis, which is Latinized to Beta Orionis and abbreviated Beta Ori or β Ori. Rigel is the brightest and most massive component – and the eponym – of a star system of at least four stars that appear as a single blue-white point of light to the naked eye. This system is located at a distance of approximately 860 light-years (260 pc) from the Sun."
+}
+
+{
+    "starClass":"B",
+    "starName": "Eta Aurigae",
+    "starMass": "5.4",
+    "starRadius": "3.25",
+    "starColour": "Blue",
+    "starTemp": "17201",
+    "starDistFromEarth": "75",
+    "starBrightness": "3.18",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Eta_Aurigae.jpg/1024px-Eta_Aurigae.jpg",
+    "starDescr":"Eta Aurigae (η Aurigae, abbreviated Eta Aur, η Aur), officially named Haedus /ˈhiːdəs/, is a star in the northern constellation of Auriga."
+}
+
+--------------------------A Stars--------------------------------
+{
+    "starClass":"A",
+    "starName": "Sirius",
+    "starMass": "2.06",
+    "starRadius": "1.71",
+    "starColour": "Blue-white",
+    "starTemp": "9940",
+    "starDistFromEarth": "2.67",
+    "starBrightness": "8.44",
+    "starImgURL":"https://cdn.mos.cms.futurecdn.net/uxdsce4CMFwqPDRKEKvbX4.jpeg",
+    "starDescr":"Sirius is the brightest star in the night sky. Its name is derived from the Greek word Σείριος, or Seirios, meaning lit. 'glowing' or 'scorching'. The star is designated α Canis Majoris, Latinized to Alpha Canis Majoris, and abbreviated Alpha CMa or α CMa. With a visual apparent magnitude of −1.46, Sirius is almost twice as bright as Canopus, the next brightest star."
+}
+
+{
+    "starClass":"A",
+    "starName": "Altair",
+    "starMass": "1.79",
+    "starRadius": "1.63",
+    "starColour": "Blue-white",
+    "starTemp": "7200",
+    "starDistFromEarth": "5.13",
+    "starBrightness": "0.76",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/6/69/Altair.jpg",
+    "starDescr":"Altair is the brightest star in the constellation of Aquila and the twelfth-brightest star in the night sky. It has the Bayer designation Alpha Aquilae, which is Latinised from α Aquilae and abbreviated Alpha Aql or α Aql. Altair is an A-type main-sequence star with an apparent visual magnitude of 0.77 and is one of the vertices of the Summer Triangle asterism; the other two vertices are marked by Deneb and Vega."
+}
+{
+    "starClass":"A",
+    "starName": "Fomalhaut",
+    "starMass": "1.92",
+    "starRadius": "1.84",
+    "starColour": "White",
+    "starTemp": "4711",
+    "starDistFromEarth": "7.8",
+    "starBrightness": "12.6",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Heic0821f.jpg/800px-Heic0821f.jpg",
+    "starDescr":"Fomalhaut is the brightest star in the southern constellation of Piscis Austrinus, the "Southern Fish", and one of the brightest stars in the sky. It has the Bayer designation Alpha Piscis Austrini, which is Latinized from α Piscis Austrini, and is abbreviated Alpha PsA or α PsA. This is a class A star on the main sequence approximately 25 light-years (7.7 pc) from the Sun as measured by the Hipparcos astrometry satellite. Since 1943, the spectrum of this star has served as one of the stable anchor points by which other stars are classified."
+}
+
+{
+    "starClass":"A",
+    "starName": "Denebola",
+    "starMass": "1.78",
+    "starRadius": "1.73",
+    "starColour": "Blue-white",
+    "starTemp": "8500",
+    "starDistFromEarth": "11",
+    "starBrightness": "2.11",
+    "starImgURL":"https://www.star-facts.com/wp-content/uploads/2020/04/Denebola.webp",
+    "starDescr":"Denebola /dəˈnɛbələ/, designated Beta Leonis (β Leonis, abbreviated Beta Leo, β Leo) is the second-brightest star in the zodiac constellation of Leo, although the two components of the γ Leonis double star, which are unresolved to the naked eye, have a combined magnitude brighter than it. Denebola is an A-type main sequence star with 75% more mass than the Sun and 15 times the Sun's luminosity. "
+}
+
+{
+    "starClass":"A",
+    "starName": "Delta Capricorni",
+    "starMass": "2",
+    "starRadius": "1.91",
+    "starColour": "White",
+    "starTemp": "7301",
+    "starDistFromEarth": "387",
+    "starBrightness": "2.81",
+    "starImgURL":"https://theskylive.com/sky/stars/star-images/83/8322_800.jpg",
+    "starDescr":"Delta Capricorni, or δ Capricorni, is a multiple star system located at a distance of about 39 light-years away in the constellation of Capricornus (the Sea Goat). The primary star in the system is a white giant and the combined light of its members makes it the brightest star in the constellation."
+}
+
+--------------------F Stars-------------------------------------
+{
+    "starClass":"F",
+    "starName": "Upsilon Andromedae",
+    "starMass": "1.27",
+    "starRadius": "1.48",
+    "starColour": "Yellow-white",
+    "starTemp": "6213",
+    "starDistFromEarth": "13.48",
+    "starBrightness": "4.63",
+    "starImgURL":"https://static.wikia.nocookie.net/remixfavoriteshowandgame/images/8/86/Upsilon_Andromedae_d.jpg/revision/latest?cb=20161224145709",
+    "starDescr":"Upsilon Andromedae (υ Andromedae, abbreviated Upsilon And, υ And) is a binary star located 44 light-years from Earth in the constellation of Andromeda. The system consists of an F-type main-sequence star (designated υ Andromedae A, officially named Titawin in the Amazigh language /tɪtəˈwiːn/) and a smaller red dwarf. As of 2010, four extrasolar planets (designated Upsilon Andromedae b, c, d and e; the first three named Saffar, Samh and Majriti, respectively) are believed to orbit υ Andromedae A."
+}
+
+{
+    "starClass":"F",
+    "starName": "Tau Boötis",
+    "starMass": "1.39",
+    "starRadius": "1.42",
+    "starColour": "Yellow-white",
+    "starTemp": "6399",
+    "starDistFromEarth": "15.62",
+    "starBrightness": "4.50",
+    "starImgURL":"http://cdn.eso.org/videos/videoframe/eso1227b.jpg",
+    "starDescr":"Tau Boötis, Latinised from τ Boötis, is an F-type main-sequence star approximately 51 light-years away[1] in the constellation of Boötes. It is a binary star system, with the secondary star being a red dwarf. As of 1999, an extrasolar planet has been confirmed to be orbiting the primary star. In December 2020, astronomers may have detected, for the first time, radio emissions from a planet beyond the Solar System."
+}
+
+{
+    "starClass":"F",
+    "starName": "HD 10647",
+    "starMass": "1.1",
+    "starRadius": "1.1",
+    "starColour": "Yellow-white",
+    "starTemp": "6218",
+    "starDistFromEarth": "17.34",
+    "starBrightness": "5.52",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Eridanus_constellation_map.svg/800px-Eridanus_constellation_map.svg.png",
+    "starDescr":"HD 10647 (q1 Eridani) is a 6th-magnitude yellow-white dwarf star, 57 light-years away in the constellation of Eridanus. The star is visible to the unaided eye under very dark skies. It is slightly hotter and more luminous than the Sun, and at 1.75 billion years old, it is also younger. An extrasolar planet was discovered orbiting this star in 2003."
+}
+
+{
+    "starClass":"F",
+    "starName": "HD 33564",
+    "starMass": "1.29",
+    "starRadius": "1.51",
+    "starColour": "Yellow-white",
+    "starTemp": "6396",
+    "starDistFromEarth": "20.97",
+    "starBrightness": "5.08",
+    "starImgURL":"http://www.exoplanetkyoto.org/exohtml/Stars/K1.bmp",
+    "starDescr":"HD 33564 is a single star with an exoplanetary companion in the northern constellation of Camelopardalis. It has an apparent visual magnitude of 5.08, which means it is a 5th magnitude star that is faintly visible to the naked eye. The system is located at a distance of 68 light years from the Sun based on parallax, and it is drifting closer with a radial velocity of −11 km/s. It is a candidate member of the Ursa Major Moving Group."
+}
+
+{
+    "starClass":"F",
+    "starName": "HD 60532",
+    "starMass": "1.44",
+    "starRadius": "2.52",
+    "starColour": "White",
+    "starTemp": "6095",
+    "starDistFromEarth": "26.22",
+    "starBrightness": "4.45",
+    "starImgURL":"http://www.exoplanetkyoto.org/exohtml/Stars/F6.bmp",
+    "starDescr":"HD 60532 is a white (F-type) main sequence star located approximately 84 light-years away in the constellation of Puppis, taking its primary name from its Henry Draper Catalogue designation. It is calculated to be 1.44 times more massive than the Sun. The star is only 59% as old as our Sun (2.7 Gyr) and has metallicity of only 38% that of our Sun. In 2008, two extrasolar planets were discovered in orbit around it."
+}
+
+----------------G Stars---------------------------------------
+{
+    "starClass":"G",
+    "starName": "Sun",
+    "starMass": "1",
+    "starRadius": "1,
+    "starColour": "White",
+    "starTemp": "5772",
+    "starDistFromEarth": "1790",
+    "starBrightness": "-26.74",
+    "starImgURL":"https://res.cloudinary.com/dtpgi0zck/image/upload/s--fMAvJ-9u--/c_fit,h_580,w_860/v1/EducationHub/photos/sun-blasts-a-m66-flare.jpg",
+    "starDescr":"The Sun is the star at the center of the Solar System. It is a nearly perfect ball of hot plasma, heated to incandescence by nuclear fusion reactions in its core, radiating the energy mainly as light, ultraviolet, and infrared radiation. It is the most important source of energy for life on Earth. The Sun's diameter is about 1.39 million kilometers (864,000 miles), or 109 times that of Earth. Its mass is about 330,000 times that of Earth, comprising about 99.86% of the total mass of the Solar System."
+}
+
+{
+    "starClass":"G",
+    "starName": "Alpha Centauri",
+    "starMass": "1.08",
+    "starRadius": "1.22",
+    "starColour": "Yellow",
+    "starTemp": "5260",
+    "starDistFromEarth": "1.8",
+    "starBrightness": "1.33",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Alpha%2C_Beta_and_Proxima_Centauri_%281%29.jpg/1280px-Alpha%2C_Beta_and_Proxima_Centauri_%281%29.jpg",
+    "starDescr":"Alpha Centauri is a gravitationally bound system of the closest stars and planets to the Solar System at 4.37 light-years (1.34 parsecs) from the Sun. The name is Latinized from α Centauri, and abbreviated Alpha Cen or α Cen. It is a triple star system consisting of α Centauri A (officially Rigil Kentaurus), α Centauri B (officially Toliman),[13] and the closest star α Centauri C (officially Proxima Centauri). Alpha Centauri A and B are Sun-like stars (Class G and K, respectively), and together they form the binary star Alpha Centauri AB."
+}
+{
+    "starClass":"G",
+    "starName": "51 Pegasi",
+    "starMass": "1.11",
+    "starRadius": "1.28",
+    "starColour": "Yellow-orange",
+    "starTemp": "5768",
+    "starDistFromEarth": "15.47",
+    "starBrightness": "5.49",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/a/a1/51_Pegasi.jpg",
+    "starDescr":"51 Pegasi (abbreviated 51 Peg), formally named Helvetios /hɛlˈviːʃiəs/, is a Sun-like star located 50.45 light-years (15.47 parsecs) from Earth in the constellation of Pegasus. It was the first main-sequence star found to have an exoplanet (designated 51 Pegasi b, officially named Dimidium, formerly unofficially dubbed Bellerophon) orbiting it."
+}
+
+{
+    "starClass":"G",
+    "starName": "Capella",
+    "starMass": "2.56",
+    "starRadius": "11.98",
+    "starColour": "Yellow",
+    "starTemp": "4970",
+    "starDistFromEarth": "13.3",
+    "starBrightness": "13.7",
+    "starImgURL":"https://images.immediate.co.uk/production/volatile/sites/25/2021/11/Star-capella-6638761.jpg",
+    "starDescr":"Capella is the brightest star in the northern constellation of Auriga. It has the Bayer designation α Aurigae, which is Latinised to Alpha Aurigae and abbreviated Alpha Aur or α Aur. Capella is the sixth-brightest star in the night sky, and the third-brightest in the northern celestial hemisphere after Arcturus and Vega. A prominent object in the northern winter sky, it is circumpolar to observers north of 44°N. Its name meaning "little goat" in Latin, Capella depicted the goat Amalthea that suckled Zeus in classical mythology. "
+}
+
+{
+    "starClass":"G",
+    "starName": "47 Ursae Majoris",
+    "starMass": "1.08",
+    "starRadius": "1.17",
+    "starColour": "Yellow",
+    "starTemp": "5887",
+    "starDistFromEarth": "14.06",
+    "starBrightness": "5.03",
+    "starImgURL":"https://images.fineartamerica.com/images-medium-large-5/artists-impression-of-planet-47-ursae-majoris-b-science-photo-library.jpg",
+    "starDescr":"47 Ursae Majoris (abbreviated 47 UMa), formally named Chalawan /ˈtʃɑːləwən/, is a yellow dwarf star approximately 46 light-years from Earth in the constellation of Ursa Major. As of 2011, three extrasolar planets (designated 47 Ursae Majoris b, c and d; the first two later named Taphao Thong and Taphao Kaew) are believed to orbit the star. The star is located fairly close to the Solar System: according to astrometric measurements made by the Hipparcos astrometry satellite, it exhibits a parallax of 71.11 milliarcseconds, corresponding to a distance of 45.913 light-years."
+}
+
+---------------K Stars ----------------------------------
+{
+    "starClass":"K",
+    "starName": "Alpha Centauri B",
+    "starMass": "55",
+    "starRadius": "13.1",
+    "starColour": "Orange",
+    "starTemp": "43850",
+    "starDistFromEarth": "1790",
+    "starBrightness": "5.97",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Alpha%2C_Beta_and_Proxima_Centauri_%281%29.jpg/1280px-Alpha%2C_Beta_and_Proxima_Centauri_%281%29.jpg",
+    "starDescr":"Alpha Centauri A and B are Sun-like stars (Class G and K, respectively), and together they form the binary star Alpha Centauri AB. To the naked eye, the two main components appear to be a single star with an apparent magnitude of −0.27, the brightest star in the southern constellation of Centaurus and the third-brightest in the night sky, outshone only by Sirius and Canopus. Alpha Centauri A has 1.1 times the mass and 1.5 times the luminosity of the Sun, while Alpha Centauri B is smaller and cooler, at 0.9 times the Sun's mass and less than 0.5 times its luminosity. The pair orbit around a common centre with an orbital period of 79 years. Their elliptical orbit is eccentric, so that the distance between A and B varies from 35.6 A.U."
+}
+
+{
+    "starClass":"K",
+    "starName": "Epsilon Indi",
+    "starMass": "97.6",
+    "starRadius": "13.9",
+    "starColour": "Orange",
+    "starTemp": "54000",
+    "starDistFromEarth": "50000",
+    "starBrightness": "5.97",
+    "starImgURL":"https://www.orionsarm.com/im_store/praxis-gnosis.png",
+    "starDescr":"Epsilon Indi, Latinized from ε Indi, is a star system located at a distance of approximately 12 light-years from Earth in the southern constellation of Indus. The star has an orange hue and is faintly visible to the naked eye with an apparent visual magnitude of 4.83. It consists of a K-type main-sequence star, ε Indi A, and two brown dwarfs, ε Indi Ba and ε Indi Bb, in a wide orbit around it. The brown dwarfs were discovered in 2003. ε Indi Ba is an early T dwarf (T1) and ε Indi Bb a late T dwarf (T6) separated by 0.6 arcseconds, with a projected distance of 1460 AU from their primary star."
+}
+
+{
+    "starClass":"K",
+    "starName": "Epsilon Eridani",
+    "starMass": "27.9",
+    "starRadius": "13.4",
+    "starColour": "Orange",
+    "starTemp": "35000",
+    "starDistFromEarth": "410",
+    "starBrightness": "3.33",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/d/da/Size_epsilon_eridani.png",
+    "starDescr":"Epsilon Eridani (Latinized from ε Eridani), formally named Ran, is a star in the southern constellation of Eridanus, at a declination of 9.46° south of the celestial equator. This allows it to be visible from most of Earth's surface. At a distance of 10.5 light-years (3.2 parsecs) from the Sun, it has an apparent magnitude of 3.73. It is the third-closest individual star or star system visible to the unaided eye. The star is estimated to be less than a billion years old. Because of its relative youth, Epsilon Eridani has a higher level of magnetic activity than the present-day Sun, with a stellar wind 30 times as strong."
+}
+
+{
+    "starClass":"K",
+    "starName": "HD 192310",
+    "starMass": "50",
+    "starRadius": "19.8",
+    "starColour": "Orange",
+    "starTemp": "32000",
+    "starDistFromEarth": "1570",
+    "starBrightness": "4.4",
+    "starImgURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Capricornus_constellation_map.svg/280px-Capricornus_constellation_map.svg.png",
+    "starDescr":"HD 192310 (also known as 5 G. Capricorni or Gliese 785) is a star in the southern constellation of Capricornus. It is located in the solar neighborhood at a distance of almost 29 light years, and is within the range of luminosity needed to be viewed from the Earth with the unaided eye. (According to the Bortle scale, it can be viewed from dark suburban skies.) HD 192310 is suspected of being a variable star, but this is unconfirmed."
+}
+
+{
+    "starClass":"K",
+    "starName": "Gliese 86",
+    "starMass": "33",
+    "starRadius": "21",
+    "starColour": "Orange-red",
+    "starTemp": "29500",
+    "starDistFromEarth": "387",
+    "starBrightness": "1.77",
+    "starImgURL":"https://www.star-facts.com/wp-content/uploads/2020/12/Kochab.webp",
+    "starDescr":"Gliese 86 (13 G. Eridani, HD 13445) is a K-type main-sequence star approximately 35 light-years away in the constellation of Eridanus. It has been confirmed that a white dwarf orbits the primary star. In 1998 the European Southern Observatory announced that an extrasolar planet was orbiting the star."
+}
