@@ -87,9 +87,9 @@ formplanetupdate.addEventListener('submit', function(e){
    formplanetdelete.addEventListener('submit', function(e){
     e.preventDefault()
    
-    let galaxyiddelete = document.getElementById('galaxyiddelete').value;
+    let planetiddelete = document.getElementById('planetiddelete').value;
    
-    fetch(`http://localhost:8080/deleteplanets/${galaxyiddelete}`, {
+    fetch(`http://localhost:8080/deleteplanets/${planetiddelete}`, {
      method: 'DELETE'
      ,
      headers: {
