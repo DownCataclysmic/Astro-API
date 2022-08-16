@@ -1,31 +1,31 @@
-let formgalaxyadd = document.getElementById('formgalaxyadd');
-let formgalaxyupdate = document.getElementById('formgalaxyupdate');
-let formgalaxydelete = document.getElementById('formgalaxydelete');
+let formplanetadd = document.getElementById('formplanetadd');
+let formplanetupdate = document.getElementById('formplanetupdate');
+let formplanetdelete = document.getElementById('formplanetdelete');
 
 
-formgalaxyadd.addEventListener('submit', function(e){
+formplanetadd.addEventListener('submit', function(e){
  e.preventDefault()
 
- let galaxynameadd = document.getElementById('galaxynameadd').value;
- let galaxytypeadd = document.getElementById('galaxytypeadd').value;
- let galaxynumstarsadd = document.getElementById('galaxynumstarsadd').value;
- let galaxydistanceadd = document.getElementById('galaxydistanceadd').value;
- let galaxywidthadd = document.getElementById('galaxywidthadd').value;
- let galaxybrightnessadd = document.getElementById('galaxybrightnessadd').value;
- let galaxyimageadd = document.getElementById('galaxydistanceadd').value;
- let galaxydescriptionadd = document.getElementById('galaxydescriptionadd').value;
+ let planetnameadd = document.getElementById('planetnameadd').value;
+ let planettypeadd = document.getElementById('planettypeadd').value;
+ let planetmassadd = document.getElementById('planetmassadd').value;
+ let planetradiusadd = document.getElementById('planetradiusadd').value;
+ let planettiltadd = document.getElementById('planettiltadd').value;
+ let planetdistanceadd = document.getElementById('planetdistanceadd').value;
+ let planetdescriptionadd = document.getElementById('planetdescriptionadd').value;
+ let planetimageadd = document.getElementById('planetimageadd').value;
 
- fetch('http://localhost:8080/savegalaxy', {
+ fetch('http://localhost:8080/saveplanet', {
   method: 'POST',
   body: JSON.stringify({
-    galaxyName:galaxynameadd,
-    galaxyType:galaxytypeadd,
-    galaxyNumStars:galaxynumstarsadd,
-    galaxyDist:galaxydistanceadd,
-    galaxyWidth:galaxywidthadd,
-    galaxyBrightness:galaxybrightnessadd,
-    galaxyImgUrl:galaxyimageadd,
-    galaxyDescr:galaxydescriptionadd,
+    planetName:planetnameadd,
+    planetType:planettypeadd,
+    planetMass:planetmassadd,
+    planetRadius:planetradiusadd,
+    planetTilt:planettiltadd,
+    planetDistFromEarth:planetdistanceadd,
+    planetDescr:planetdescriptionadd,
+    planetImgUrl:planetimageadd,
 
   }),
   headers: {
@@ -43,7 +43,7 @@ formgalaxyadd.addEventListener('submit', function(e){
 }).catch(error => console.error('Error:', error)); 
 });
 
-formgalaxyupdate.addEventListener('submit', function(e){
+formplanetupdate.addEventListener('submit', function(e){
     e.preventDefault()
    
     let galaxyidupdate = document.getElementById('galaxyidupdate').value;
@@ -56,7 +56,7 @@ formgalaxyupdate.addEventListener('submit', function(e){
     let galaxyimageupdate = document.getElementById('galaxydistanceupdate').value;
     let galaxydescriptionupdate = document.getElementById('galaxydescriptionupdate').value;
    
-    fetch(`http://localhost:8080/updategalaxies/${galaxyidupdate}`, {
+    fetch(`http://localhost:8080/updateplanets/${galaxyidupdate}`, {
      method: 'PUT',
      body: JSON.stringify({
         galaxyName:galaxynameupdate,
@@ -84,12 +84,12 @@ formgalaxyupdate.addEventListener('submit', function(e){
    }).catch(error => console.error('Error:', error)); 
    });
 
-   formgalaxydelete.addEventListener('submit', function(e){
+   formplanetdelete.addEventListener('submit', function(e){
     e.preventDefault()
    
     let galaxyiddelete = document.getElementById('galaxyiddelete').value;
    
-    fetch(`http://localhost:8080/deletegalaxies/${galaxyiddelete}`, {
+    fetch(`http://localhost:8080/deleteplanets/${galaxyiddelete}`, {
      method: 'DELETE'
      ,
      headers: {
