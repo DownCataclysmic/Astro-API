@@ -245,3 +245,43 @@ async function getStarDataK() {
             document.getElementById('container-kb').innerHTML = generatedHtmlCol3 + generatedHtmlCol2;
 
 }
+
+async function getStarUser() {
+  const response = await fetch(star_url);
+  const data = await response.json();
+  let starDataLength = Object.keys(data).length;
+  const rand_star = data[getRandomInt(30,starDataLength)]
+  let myJSONcol1 = JSON.stringify(rand_star, ["starClass", "id", "starName", "starName", "starRadius", "starColour", "starTemp","starDistFromEarth" ,"starBrightness" ]);
+  jsonStarNameCol1 = myJSONcol1.replace("\"starClass\":", "\"Star Classification\":"); jsonStarNameCol1 = jsonStarNameCol1.replace("\"id\":", "\"Star ID\":");
+  jsonStarNameCol1 = jsonStarNameCol1.replace("\"starName\":", "\"Star Name\":");jjsonStarNameCol1 = jsonStarNameCol1.replace("\"starMass\":", "\"Star Mass (M☉)\":");
+  jsonStarNameCol1 = jsonStarNameCol1.replace("\"starRadius\":", "\"Star Radius (R☉)\":");jsonStarNameCol1 = jsonStarNameCol1.replace("\"starColour\":", "\"Star Colour\":");
+  jsonStarNameCol1 = jsonStarNameCol1.replace("\"starTemp\":", "\"Star Temperature (K)\":");jsonStarNameCol1 = jsonStarNameCol1.replace("\"starDistFromEarth\":", "\"Star Distance From Earth (Parsecs)\":");  
+  jsonStarNameCol1 = jsonStarNameCol1.replace("\"starBrightness\":", "\"Star Brightness (Apparent Magnitude)\":");
+  let rand_star_col1 = JSON.parse(jsonStarNameCol1);
+
+  let myJSONcol2 = JSON.stringify(rand_star, ["starDescr"]);      
+  let rand_star_col2 = JSON.parse(myJSONcol2);
+  
+  let myJSONcol3 = JSON.stringify(rand_star, ["starImgURL"]);      
+  let rand_star_col3 = JSON.parse(myJSONcol3);
+  
+  const generatedHtmlCol1 = Object.keys(rand_star_col1).reduce((accum, currKey) => accum +
+  `<div class="p-2">
+    <h4 class="o-stars">${currKey}: ${rand_star_col1[currKey]}</h4>
+    </div>`, '');
+
+          document.getElementById('user-added-stars-col1').innerHTML = generatedHtmlCol1;
+
+  const generatedHtmlCol2 = Object.keys(rand_star_col2).reduce((accum, currKey) => accum +
+    `<div class="p-2">
+      <h6 class="o-stars">${rand_star_col2[currKey]}</h6>
+      </div>`, '');
+
+  const generatedHtmlCol3 = Object.keys(rand_star_col3).reduce((accum, currKey) => accum +
+      `<div class="p-2">
+        <img src ="${rand_star_col3[currKey]}"style = "border: 5px solid #555; width= "300px" height= "300px"</img>
+        </div>`, '');
+
+            document.getElementById('user-added-stars-col2').innerHTML = generatedHtmlCol3 + generatedHtmlCol2;
+
+}
