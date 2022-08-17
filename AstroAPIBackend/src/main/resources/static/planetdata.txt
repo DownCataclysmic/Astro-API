@@ -1,0 +1,164 @@
+
+{ 
+    "planetName":"Earth",
+    "planetType": "Terrestrial",
+    "planetMass": "5.97217×10<sup>24</sup> kg",
+    "planetRadius": "6371 km",
+    "planetTilt": "23.439°",
+    "planetDistFromEarth": "0",
+    "planetDescr":"Earth is the third planet from the Sun and the only astronomical object known to harbor life. While large volumes of water can be found throughout the Solar System, only Earth sustains liquid surface water. About 71% of Earth's surface is made up of the ocean, dwarfing Earth's polar ice, lakes, and rivers. The remaining 29% of Earth's surface is land, consisting of continents and islands.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1024px-The_Blue_Marble_%28remastered%29.jpg"
+}
+{ 
+    "planetName":"Venus",
+    "planetType": "Terrestrial",
+    "planetMass": "4.8675×10<sup>24</sup> kg",
+    "planetRadius": "6,051.8 km",
+    "planetTilt": "2.64°",
+    "planetDistFromEarth": "239.98 million km",
+    "planetDescr":"Venus is the second planet from the Sun and is named after the Roman goddess of love and beauty. As the brightest natural object in Earth's night sky after the Moon, Venus can cast shadows and can be visible to the naked eye in broad daylight. Venus's orbit is smaller than that of Earth, but its maximal elongation is 47°; thus, at latitudes with a day-night cycle, it is most readily visible for up to a few hours following the start of sunset or before sunrise. At times, it has been seen in a completely dark sky.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/0/08/Venus_from_Mariner_10.jpg"
+}
+{ 
+    "planetName":"Mercury",
+    "planetType": "Terrestrial",
+    "planetMass": "3.3011×10<sup>23</sup> kg",
+    "planetRadius": "2,439.7 km",
+    "planetTilt": "0.034°",
+    "planetDistFromEarth": "167.45 million km",
+    "planetDescr":"Mercury is the smallest planet in the Solar System and the closest to the Sun. Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, and mediator between gods and mortals, corresponding to the Greek god Hermes (Ἑρμῆς). Like Venus, Mercury orbits the Sun within Earth's orbit as an inferior planet, and its apparent distance from the Sun as viewed from Earth never exceeds 28°.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mercury_in_true_color.jpg/1024px-Mercury_in_true_color.jpg"
+}
+{ 
+    "planetName":"Mars",
+    "planetType": "Terrestrial",
+    "planetMass": "6.4171×10<sup>23</sup> kg",
+    "planetRadius": "3389.5 km",
+    "planetTilt": "25.19°",
+    "planetDistFromEarth": "159.62 million km",
+    "planetDescr":"Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In the English language, Mars is named for the Roman god of war. Mars is a terrestrial planet with a thin atmosphere, and has a crust primarily composed of elements similar to Earth's crust, as well as a core made of iron and nickel. Mars has surface features such as impact craters, valleys, dunes, and polar ice caps. It has two small and irregularly shaped moons: Phobos and Deimos.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1024px-OSIRIS_Mars_true_color.jpg"
+}
+
+{ 
+    "planetName":"CoRoT-7b",
+    "planetType": "Super-Earth",
+    "planetMass": "6.06 Earth Masses",
+    "planetRadius": "1.58 Earth Radii",
+    "planetTilt": "Unknown",
+    "planetDistFromEarth": "489 ly",
+    "planetDescr":"CoRoT-7b (previously named CoRoT-Exo-7b) is an exoplanet orbiting the star CoRoT-7 in the constellation of Monoceros, 489 light-years (150 parsecs) from Earth. It was first detected photometrically by the French-led CoRoT mission and reported in February 2009.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/9/93/Exoplanet_Comparison_CoRoT-7_b.png"
+}
+{ 
+    "planetName":"Gliese 876 d",
+    "planetType": "Super-Earth",
+    "planetMass": "6.83 Earth Masses",
+    "planetRadius": "1.65 Earth Radii",
+    "planetTilt": "Unknown",
+    "planetDistFromEarth": "15.2 ly,
+    "planetDescr":"Gliese 876 d is an exoplanet approximately 15 light-years away in the constellation of Aquarius. The planet was the third planet discovered orbiting the red dwarf Gliese 876. It was the lowest-mass extrasolar planet apart from the pulsar planets orbiting PSR B1257+12 at the time of its discovery. Due to this low mass, it can be categorized as a super-Earth.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/3/39/Artist%E2%80%99s_view_of_an_exoplanet_inspired_by_the_discovery_of_Gliese_876_d.jpg
+}
+{ 
+    "planetName":"Gliese 581c",
+    "planetType": "Super-Earth",
+    "planetMass": "5.5 Earth Masses",
+    "planetRadius": "Unknown",
+    "planetTilt": "Unknown",
+    "planetDistFromEarth": "20.37 ly",
+    "planetDescr":"Gliese 581c /ˈɡliːzə/ (Gl 581c or GJ 581c) is a planet orbiting within the Gliese 581 system. It is the second planet discovered in the system and the third in order from the star. With a mass at least 5.5 times that of the Earth, it is classified as a super-Earth (a category of planets with masses greater than Earth's up to ten Earth masses).",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/6/6d/Exoplanet_Comparison_Gliese_581_c.png"
+}
+{ 
+    "planetName":"OGLE-2005-BLG-390Lb",
+    "planetType": "Super-Earth",
+    "planetMass": "5.5 Earth Masses",
+    "planetRadius": "Unknown",
+    "planetTilt": "Unknown",
+    "planetDistFromEarth": "21,530 ly",
+    "planetDescr":"OGLE-2005-BLG-390Lb (known sometimes as Hoth by NASA[1]) is a super-Earth exoplanet orbiting OGLE-2005-BLG-390L, a star 21,500 ± 3,300 light-years (6,600 ± 1,000 parsecs) from Earth near the center of the Milky Way, making it one of the most distant planets known.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ESO_OGLE-2005-BLG-390Lb.jpg/1920px-ESO_OGLE-2005-BLG-390Lb.jpg"
+}
+
+{ 
+    "planetName":"Jupiter",
+    "planetType": "Gas Giants",
+    "planetMass": "1.8982×10<sup>27</sup> kg",
+    "planetRadius": "69,911 km",
+    "planetTilt": "3.13° ",
+    "planetDistFromEarth": "627.86 million km",
+    "planetDescr":"Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets in the Solar System combined, but slightly less than one-thousandth the mass of the Sun. Jupiter is the third brightest natural object in the Earth's night sky after the Moon and Venus, and it has been observed since prehistoric times. It was named after the Roman god Jupiter, the king of the gods.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hubble_captures_crisp_new_image_of_Jupiter_and_Europa_%2850354436493%29.jpg/440px-Hubble_captures_crisp_new_image_of_Jupiter_and_Europa_%2850354436493%29.jpg"
+}
+{ 
+    "planetName":"Saturn",
+    "planetType": "Gas Giants",
+    "planetMass": "5.6834×10<sup>26</sup> kg",
+    "planetRadius": "58,232 km",
+    "planetTilt": "26.73°",
+    "planetDistFromEarth": "1.3228 billion km",
+    "planetDescr":"Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive.[",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1920px-Saturn_during_Equinox.jpg"
+}
+{ 
+    "planetName":"Uranus",
+    "planetType": "Gas Giants",
+    "planetMass": "8.6810 × 10<sup>26</sup> kg",
+    "planetRadius": "25,362 km",
+    "planetTilt": "97.77°",
+    "planetDistFromEarth": "2.9308 billion km",
+    "planetDescr":"Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus (Caelus), who, according to Greek mythology, was the great-grandfather of Ares (Mars), grandfather of Zeus (Jupiter) and father of Cronus (Saturn). It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29_-_JPEG_converted.jpg/440px-Uranus_as_seen_by_NASA%27s_Voyager_2_%28remastered%29_-_JPEG_converted.jpg"
+}
+{ 
+    "planetName":"Neptune",
+    "planetType": "Gas Giants",
+    "planetMass": "1.02413×<sup>26</sup> kg",
+    "planetRadius": "24,622 km",
+    "planetTilt": "1.770°",
+    "planetDistFromEarth": "4.345 billion km",
+    "planetDescr":"Neptune is the eighth planet from the Sun and the farthest known solar planet. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, and slightly more massive than its near-twin Uranus.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/440px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg"
+}
+-
+{ 
+    "planetName":"HAT-P-11b",
+    "planetType": "Neptune-Like",
+    "planetMass": "23.4 Earth Masses",
+    "planetRadius": "4.36 Earth Radii",
+    "planetTilt": "89.05°",
+    "planetDistFromEarth": "123 ly",
+    "planetDescr":"HAT-P-11b (or Kepler-3b) is an extrasolar planet orbiting the star HAT-P-11. It was discovered by the HATNet Project team in 2009 using the transit method, and submitted for publication on 2 January 2009.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/4/46/Exoplanet_Comparison_HAT-P-11_b.png"
+}
+{ 
+    "planetName":"Gliese 436 b",
+    "planetType": "Neptune-Like",
+    "planetMass": "21.36 Earth Masses",
+    "planetRadius": "4.327 Earth Radii",
+    "planetTilt": "85.8°",
+    "planetDistFromEarth": "33.01 ly",
+    "planetDescr":"Gliese 436 b /ˈɡliːzə/ (sometimes called GJ 436 b) is a Neptune-sized exoplanet orbiting the red dwarf Gliese 436. It was the first hot Neptune discovered with certainty (in 2007) and was among the smallest-known transiting planets in mass and radius, until the much smaller Kepler exoplanet discoveries began circa 2010.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/7/7f/Exoplanet_Comparison_Gliese_436_b.png"
+}
+{ 
+    "planetName":"Kepler-56b",
+    "planetType": "Neptune-Like",
+    "planetMass": "22.1 Earth Masses",
+    "planetRadius": "6.51 Earth Radii",
+    "planetTilt": "Unknown",
+    "planetDistFromEarth": "Unknown",
+    "planetDescr":"Kepler-56b (KOI-1241.02) is a hot Neptune—a class of exoplanets—located roughly 3,060 light-years (940 parsecs) away. It is somewhat larger than Neptune and orbits its parent star Kepler-56 and was discovered in 2013 by the Kepler Space Telescope.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kepler-56_System_Diagram.jpg/2560px-Kepler-56_System_Diagram.jpg"
+}
+{ 
+    "planetName":"Kepler-138c",
+    "planetType": "Neptune-Like",
+    "planetMass": "5.2 Earth Masses",
+    "planetRadius": "1.17 Earth Radii",
+    "planetTilt": "89.5 °",
+    "planetDistFromEarth": "Unknown",
+    "planetDescr":"Kepler-138, also known as KOI-314, is a red dwarf located in the constellation Lyra, 218 light years from Earth. It is located within the field of vision of the Kepler spacecraft, the satellite that NASA's Kepler Mission used to detect planets that may be transiting their stars.",
+    "planetImgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Gasdwarf.jpg/480px-Gasdwarf.jpg"
+}

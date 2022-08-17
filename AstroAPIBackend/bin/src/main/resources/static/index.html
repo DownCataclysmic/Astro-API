@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+    <head>
+      <style>
+            body {
+                  background-image: url('/images/starbackground.avif');
+                }
+
+            nav {
+              background-color: rgba(0,0,0,0.15) !important;
+              }
+
+           
+
+      </style>
+        <meta charset="UTF-8">    
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">    
+            <title>Astro API</title>
+            <script src="main.js"></script>
+    </head>
+    <body>
+      <div class="text-center p-4">
+        <nav class="navbar bg-transparent navbar-expand-lg navbar-dark bg-dark">
+          <div class="px-3"></div> 
+
+            <ul class="navbar-nav">
+
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html" style="font-size: 15pt;">Home
+                  <img src="navbar-images\falling-star.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html" style="font-size: 15pt;">Gallery
+                  <img src="navbar-images\gallery.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="playgod.html" style="font-size: 15pt;">Play God
+                  <img src="navbar-images\login.png" width="40" height="40" class="d-inline-block align-top" alt="">
+                </a>
+              </li>
+              
+            </ul>
+            <div class="md-form active-pink active-pink-2 mb-3 mt-0">
+              <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </div>
+        </nav>
+      
+        <script src="stars.js"></script>
+        <h1 style="color: white; text-shadow: 2px 2px #524e4e;"> AstroFinder</h1>    
+        <h3 style="color: white; text-shadow: 3px 3px #524e4e;">Explore the Universe!</h3>
+        <div>
+          <img src="images/galaxy-index-image.png" width = 800px/>
+        </div>
+        <h5 style="color: white; text-shadow: 3px 3px #524e4e;">What do you want to find?</h5>
+        <button type = 'button' class="btn btn-dark" onclick="toggleStarInfo()">Stars
+          <img src = "button-images/star-button.png" width = 50px>
+        </button>
+        <button class="btn btn-dark" onclick="toggleGalaxyInfo()">Galaxies
+          <img src = "button-images/galaxy-button.png" width = 55px>
+        </button>
+        <button class="btn btn-dark" onclick="togglePlanetInfo()">Planets
+          <img src = "button-images/saturn-button.png" width = 75px>
+        </button>
+        <div>
+        
+          <h5 class = "p-4" id='star' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What classification of star?</p>
+          <button class="btn btn-dark" id='star-button-o' onclick="getStarDataO()">O</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-oa' class="col"></div>
+                <div id = 'container-ob' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-b' onclick="getStarDataB()">B</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ba' class="col"></div>
+                <div id = 'container-bb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-a' onclick="getStarDataA()">A</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-aa' class="col"></div>
+                <div id = 'container-ab' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-f' onclick="getStarDataF()">F</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-fa' class="col"></div>
+                <div id = 'container-fb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-g' onclick="getStarDataG()">G</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ga' class="col"></div>
+                <div id = 'container-gb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='star-button-k' onclick="getStarDataK()">K</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ka' class="col"></div>
+                <div id = 'container-kb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark p-2" id='user-added-stars' onclick="getStarUser()">Your Stars</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'user-added-stars-col1' class="col"></div>
+                <div id = 'user-added-stars-col2' class="col">
+                </div>
+              </div>
+            </div>
+        </div>
+        <div>
+        <script src="galaxies.js"></script>  
+          <h5 class = "p-4" id='galaxy' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What type of galaxy?</p>
+            <button class="btn btn-dark" id='galaxy-button-s' onclick="getGalaxyDataSpiral()">Spiral Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-spirala' class="col"></div>
+                <div id = 'container-spiralb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-e' onclick="getGalaxyDataElliptical()">Elliptical Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-ellipticala' class="col"></div>
+                <div id = 'container-ellipticalb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-p' onclick="getGalaxyDataPeculiar()">Peculiar Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-peculiara' class="col"></div>
+                <div id = 'container-peculiarb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-i' onclick="getGalaxyDataIrregular()">Irregular Galaxy</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-irregulara' class="col"></div>
+                <div id = 'container-irregularb' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark p-2" id='user-added-galaxies' onclick="getGalaxiesUser()">Your Galaxies</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'user-added-galaxies-col1' class="col"></div>
+                <div id = 'user-added-galaxies-col2' class="col">
+                </div>
+              </div>
+            </div>
+            
+        </div>
+        <div>
+          <script src="planets.js"></script> 
+          <h5 class = "p-4" id='planet' style="display: none; color: white; text-shadow: 3px 3px #524e4e;">What type of planet?</p>
+            <button class="btn btn-dark" id='galaxy-button-s' onclick="getPlanetDataTerrestrial()">Terrestrial</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-t-a' class="col"></div>
+                <div id = 'container-planet-t-b' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-e' onclick="getPlanetDataSE()">Super-Earth</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-se-a' class="col"></div>
+                <div id = 'container-planet-se-b' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-p' onclick="getPlanetDataGG()">Gas Giant</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-gg-a' class="col"></div>
+                <div id = 'container-planet-gg-b' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark" id='galaxy-button-i' onclick="getPlanetDataNL()">Neptune-Like</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'container-planet-nl-a' class="col"></div>
+                <div id = 'container-planet-nl-b' class="col">
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-dark p2" id='user-added-planets' onclick="getPlanetsUser()">Your Planets</button>
+            <div class="p-2 container">
+              <div class="row">
+                <div style = "text-align: left;" id = 'user-added-planets-col1' class="col"></div>
+                <div id = 'user-added-planets-col2' class="col">
+                </div>
+              </div>
+            </div>
+      </div>
+    </body>
+</html>
